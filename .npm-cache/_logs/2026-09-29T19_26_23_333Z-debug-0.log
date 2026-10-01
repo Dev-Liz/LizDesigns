@@ -1,0 +1,1107 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\DDR3\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.0
+2 info using node@v24.12.0
+3 silly config load:file:C:\Users\DDR3\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\.npmrc
+5 silly config load:file:C:\Users\DDR3\.npmrc
+6 silly config load:file:C:\Users\DDR3\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\.npm-cache\_logs\2026-09-29T19_26_23_333Z-
+10 verbose logfile C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\.npm-cache\_logs\2026-09-29T19_26_23_333Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly idealTree buildDeps
+14 silly fetch manifest lucide-react@^0.468.0
+15 silly packumentCache full:https://registry.npmjs.org/lucide-react cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/lucide-react 235ms (cache stale)
+17 silly packumentCache full:https://registry.npmjs.org/lucide-react set size:2366875 disposed:false
+18 silly fetch manifest react@^19.0.0
+19 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/react 267ms (cache stale)
+21 silly packumentCache full:https://registry.npmjs.org/react set size:7011585 disposed:false
+22 silly fetch manifest next@^15.1.0
+23 silly packumentCache full:https://registry.npmjs.org/next cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/next 366ms (cache stale)
+25 silly packumentCache full:https://registry.npmjs.org/next set size:31333361 disposed:false
+26 silly fetch manifest @opentelemetry/api@^1.1.0
+27 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/@opentelemetry%2fapi 84ms (cache stale)
+29 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi set size:272967 disposed:false
+30 silly fetch manifest @playwright/test@^1.51.1
+31 silly packumentCache full:https://registry.npmjs.org/@playwright%2ftest cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/@playwright%2ftest 284ms (cache stale)
+33 silly packumentCache full:https://registry.npmjs.org/@playwright%2ftest set size:9573798 disposed:false
+34 silly fetch manifest babel-plugin-react-compiler@*
+35 silly packumentCache full:https://registry.npmjs.org/babel-plugin-react-compiler cache-miss
+36 http fetch GET 200 https://registry.npmjs.org/babel-plugin-react-compiler 390ms (cache stale)
+37 silly packumentCache full:https://registry.npmjs.org/babel-plugin-react-compiler set size:1356999 disposed:false
+38 silly fetch manifest react-dom@^19.0.0
+39 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+40 http fetch GET 200 https://registry.npmjs.org/react-dom 238ms (cache stale)
+41 silly packumentCache full:https://registry.npmjs.org/react-dom set size:9447690 disposed:false
+42 silly fetch manifest sass@^1.3.0
+43 silly packumentCache full:https://registry.npmjs.org/sass cache-miss
+44 http fetch GET 200 https://registry.npmjs.org/sass 130ms (cache stale)
+45 silly packumentCache full:https://registry.npmjs.org/sass set size:754556 disposed:false
+46 silly fetch manifest tailwindcss@^3.4.16
+47 silly packumentCache full:https://registry.npmjs.org/tailwindcss cache-miss
+48 http fetch GET 200 https://registry.npmjs.org/tailwindcss 234ms (cache stale)
+49 silly packumentCache full:https://registry.npmjs.org/tailwindcss set size:10893093 disposed:false
+50 silly placeDep ROOT lucide-react@0.468.0 REPLACE for: liz-portfolio@0.1.0 want: ^0.468.0
+51 silly placeDep ROOT next@15.5.26 REPLACE for: liz-portfolio@0.1.0 want: ^15.1.0
+52 silly placeDep ROOT react-dom@19.3.0 OK for: next@15.5.26 want: ^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0
+53 silly placeDep ROOT tailwindcss@3.4.19 REPLACE for: liz-portfolio@0.1.0 want: ^3.4.16
+54 silly fetch manifest @swc/helpers@0.5.15
+55 silly packumentCache full:https://registry.npmjs.org/@swc%2fhelpers cache-miss
+56 silly fetch manifest caniuse-lite@^1.0.30001579
+57 silly packumentCache full:https://registry.npmjs.org/caniuse-lite cache-miss
+58 silly fetch manifest @next/swc-darwin-x64@15.5.26
+59 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-x64 cache-miss
+60 http fetch GET 200 https://registry.npmjs.org/@swc%2fhelpers 150ms (cache stale)
+61 silly packumentCache full:https://registry.npmjs.org/@swc%2fhelpers set size:775458 disposed:false
+62 silly fetch manifest @next/swc-darwin-arm64@15.5.26
+63 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-arm64 cache-miss
+64 http fetch GET 200 https://registry.npmjs.org/caniuse-lite 219ms (cache stale)
+65 silly packumentCache full:https://registry.npmjs.org/caniuse-lite set size:2317656 disposed:false
+66 silly fetch manifest @next/swc-linux-x64-gnu@15.5.26
+67 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-gnu cache-miss
+68 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-darwin-x64 319ms (cache stale)
+69 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-x64 set size:5619446 disposed:false
+70 silly fetch manifest @next/swc-linux-x64-musl@15.5.26
+71 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-musl cache-miss
+72 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-x64-musl 143ms (cache stale)
+73 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-musl set size:5490762 disposed:false
+74 silly fetch manifest @next/swc-linux-arm64-gnu@15.5.26
+75 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu cache-miss
+76 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-darwin-arm64 671ms (cache stale)
+77 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-arm64 set size:5680581 disposed:false
+78 silly fetch manifest @next/swc-linux-arm64-musl@15.5.26
+79 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-musl cache-miss
+80 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-x64-gnu 815ms (cache stale)
+81 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-gnu set size:5735207 disposed:false
+82 silly fetch manifest @next/swc-win32-arm64-msvc@15.5.26
+83 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc cache-miss
+84 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-arm64-musl 386ms (cache stale)
+85 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-musl set size:5560457 disposed:false
+86 silly fetch manifest sucrase@^3.35.0
+87 silly packumentCache full:https://registry.npmjs.org/sucrase cache-miss
+88 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu 764ms (cache stale)
+89 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu set size:5540552 disposed:false
+90 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc 498ms (cache stale)
+91 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc set size:5521454 disposed:false
+92 http fetch GET 200 https://registry.npmjs.org/sucrase 584ms (cache stale)
+93 silly packumentCache full:https://registry.npmjs.org/sucrase set size:449399 disposed:false
+94 silly fetch manifest caniuse-lite@^1.0.30001810
+95 silly packumentCache full:https://registry.npmjs.org/caniuse-lite cache-miss
+96 http fetch GET 200 https://registry.npmjs.org/caniuse-lite 83ms (cache stale)
+97 silly packumentCache full:https://registry.npmjs.org/caniuse-lite set size:2317656 disposed:false
+98 silly placeDep ROOT caniuse-lite@1.0.30001813 OK for: autoprefixer@10.6.1 want: ^1.0.30001810
+99 silly placeDep ROOT @next/swc-darwin-arm64@15.5.26 OK for: next@15.5.26 want: 15.5.26
+100 silly placeDep ROOT @next/swc-darwin-x64@15.5.26 OK for: next@15.5.26 want: 15.5.26
+101 silly placeDep ROOT @next/swc-linux-arm64-gnu@15.5.26 OK for: next@15.5.26 want: 15.5.26
+102 silly placeDep ROOT @next/swc-linux-arm64-musl@15.5.26 OK for: next@15.5.26 want: 15.5.26
+103 silly placeDep ROOT @next/swc-linux-x64-gnu@15.5.26 OK for: next@15.5.26 want: 15.5.26
+104 silly placeDep ROOT @next/swc-linux-x64-musl@15.5.26 OK for: next@15.5.26 want: 15.5.26
+105 silly placeDep ROOT @next/swc-win32-arm64-msvc@15.5.26 OK for: next@15.5.26 want: 15.5.26
+106 silly placeDep ROOT @swc/helpers@0.5.15 OK for: next@15.5.26 want: 0.5.15
+107 silly placeDep ROOT sucrase@3.35.1 OK for: tailwindcss@3.4.19 want: ^3.35.0
+108 silly reify mark retired [
+108 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\caniuse-lite'
+108 silly reify ]
+109 silly reify mark retired [
+109 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\lucide-react'
+109 silly reify ]
+110 silly reify mark retired [
+110 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\next'
+110 silly reify ]
+111 silly reify mark retired [
+111 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\react-dom'
+111 silly reify ]
+112 silly reify mark retired [
+112 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\sucrase'
+112 silly reify ]
+113 silly reify mark retired [
+113 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\tailwindcss'
+113 silly reify ]
+114 silly reify mark retired [
+114 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@next\\swc-darwin-arm64'
+114 silly reify ]
+115 silly reify mark retired [
+115 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@next\\swc-darwin-x64'
+115 silly reify ]
+116 silly reify mark retired [
+116 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@next\\swc-linux-arm64-gnu'
+116 silly reify ]
+117 silly reify mark retired [
+117 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@next\\swc-linux-arm64-musl'
+117 silly reify ]
+118 silly reify mark retired [
+118 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@next\\swc-linux-x64-gnu'
+118 silly reify ]
+119 silly reify mark retired [
+119 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@next\\swc-linux-x64-musl'
+119 silly reify ]
+120 silly reify mark retired [
+120 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@next\\swc-win32-arm64-msvc'
+120 silly reify ]
+121 silly reify mark retired [
+121 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@swc\\helpers'
+121 silly reify ]
+122 silly reify mark retired [
+122 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\browserslist',
+122 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\browserslist',
+122 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\browserslist.cmd',
+122 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\browserslist.ps1'
+122 silly reify ]
+123 silly reify mark retired [
+123 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\cssesc',
+123 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\cssesc',
+123 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\cssesc.cmd',
+123 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\cssesc.ps1'
+123 silly reify ]
+124 silly reify mark retired [
+124 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\autoprefixer',
+124 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\autoprefixer',
+124 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\autoprefixer.cmd',
+124 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\autoprefixer.ps1'
+124 silly reify ]
+125 silly reify mark retired [
+125 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\baseline-browser-mapping',
+125 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\baseline-browser-mapping',
+125 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\baseline-browser-mapping.cmd',
+125 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\baseline-browser-mapping.ps1'
+125 silly reify ]
+126 silly reify mark retired [
+126 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\jiti',
+126 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\jiti',
+126 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\jiti.cmd',
+126 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\jiti.ps1'
+126 silly reify ]
+127 silly reify mark retired [
+127 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\nanoid',
+127 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\nanoid',
+127 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\nanoid.cmd',
+127 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\nanoid.ps1'
+127 silly reify ]
+128 silly reify mark retired [
+128 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\resolve',
+128 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\resolve',
+128 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\resolve.cmd',
+128 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\resolve.ps1'
+128 silly reify ]
+129 silly reify mark retired [
+129 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\semver',
+129 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\semver',
+129 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\semver.cmd',
+129 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\semver.ps1'
+129 silly reify ]
+130 silly reify mark retired [
+130 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@img\\sharp-wasm32'
+130 silly reify ]
+131 silly reify mark retired [
+131 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\update-browserslist-db',
+131 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\update-browserslist-db',
+131 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\update-browserslist-db.cmd',
+131 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\update-browserslist-db.ps1'
+131 silly reify ]
+132 silly reify mark retired [
+132 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@emnapi\\runtime'
+132 silly reify ]
+133 silly reify moves {
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\caniuse-lite': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.caniuse-lite-CIBrEocL',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\lucide-react': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.lucide-react-HqTAGklO',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\next': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.next-8Ri37zyX',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\react-dom': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.react-dom-7DQOJoPE',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\sucrase': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.sucrase-SIvsVfxQ',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\tailwindcss': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.tailwindcss-gBeEpOcF',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@next\\swc-darwin-arm64': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@next\\.swc-darwin-arm64-zkpKoZx5',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@next\\swc-darwin-x64': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@next\\.swc-darwin-x64-tgEttacp',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@next\\swc-linux-arm64-gnu': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@next\\.swc-linux-arm64-gnu-eCkDxUXe',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@next\\swc-linux-arm64-musl': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@next\\.swc-linux-arm64-musl-IR3ebdbr',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@next\\swc-linux-x64-gnu': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@next\\.swc-linux-x64-gnu-NTJoh5PO',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@next\\swc-linux-x64-musl': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@next\\.swc-linux-x64-musl-FkuPlof6',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@next\\swc-win32-arm64-msvc': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@next\\.swc-win32-arm64-msvc-HrshKQfy',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@swc\\helpers': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@swc\\.helpers-CEeuI5uh',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\browserslist': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.browserslist-af9w3STM',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\browserslist': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\.browserslist-urHu1Lqf',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\browserslist.cmd': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\.browserslist.cmd-KNMTl6U5',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\browserslist.ps1': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\.browserslist.ps1-6gQJlKGf',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\cssesc': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.cssesc-B2j8x6B8',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\cssesc': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\.cssesc-piPqwjC7',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\cssesc.cmd': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\.cssesc.cmd-z7gbas5R',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\cssesc.ps1': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\.cssesc.ps1-11FPA5L9',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\autoprefixer': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.autoprefixer-rjPd2YUC',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\autoprefixer': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\.autoprefixer-KNxMq3Hv',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\autoprefixer.cmd': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\.autoprefixer.cmd-jXSDjb0k',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\autoprefixer.ps1': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\.autoprefixer.ps1-FHLLSDdS',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\baseline-browser-mapping': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.baseline-browser-mapping-ux976O2o',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\baseline-browser-mapping': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\.baseline-browser-mapping-00nnXcDM',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\baseline-browser-mapping.cmd': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\.baseline-browser-mapping.cmd-0WnCiYwk',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\baseline-browser-mapping.ps1': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\.baseline-browser-mapping.ps1-flK46CwO',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\jiti': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.jiti-1s4sDyKc',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\jiti': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\.jiti-tcZ91VY2',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\jiti.cmd': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\.jiti.cmd-qtufxPG0',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\jiti.ps1': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\.jiti.ps1-U6c835Uq',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\nanoid': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.nanoid-7vDHcl5l',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\nanoid': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\.nanoid-l48f2SHt',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\nanoid.cmd': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\.nanoid.cmd-CoGFXiG7',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\nanoid.ps1': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\.nanoid.ps1-mDhQsswh',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\resolve': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.resolve-Tgz9Anv3',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\resolve': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\.resolve-pd0OZ8KN',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\resolve.cmd': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\.resolve.cmd-YJlr1Ais',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\resolve.ps1': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\.resolve.ps1-XXA9utXH',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\semver': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.semver-CmyjczhH',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\semver': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\.semver-ceX11zl5',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\.semver.cmd-8Prn0gkv',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\.semver.ps1-4sBaf3Bd',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@img\\sharp-wasm32': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@img\\.sharp-wasm32-ppBrk39m',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\update-browserslist-db': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.update-browserslist-db-3oCLX6wi',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\update-browserslist-db': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\.update-browserslist-db-Cz4nkXZu',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\update-browserslist-db.cmd': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\.update-browserslist-db.cmd-p7qBFRCF',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\update-browserslist-db.ps1': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\.update-browserslist-db.ps1-6fYKEKH6',
+133 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@emnapi\\runtime': 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@emnapi\\.runtime-0iE84WQr'
+133 silly reify }
+134 verbose reify failed optional dependency C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@next\swc-win32-arm64-msvc
+135 silly reify mark deleted [
+135 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@next\\swc-win32-arm64-msvc'
+135 silly reify ]
+136 verbose reify failed optional dependency C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@next\swc-linux-x64-musl
+137 silly reify mark deleted [
+137 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@next\\swc-linux-x64-musl'
+137 silly reify ]
+138 verbose reify failed optional dependency C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@next\swc-linux-x64-gnu
+139 silly reify mark deleted [
+139 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@next\\swc-linux-x64-gnu'
+139 silly reify ]
+140 verbose reify failed optional dependency C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@next\swc-linux-arm64-musl
+141 silly reify mark deleted [
+141 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@next\\swc-linux-arm64-musl'
+141 silly reify ]
+142 verbose reify failed optional dependency C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@next\swc-linux-arm64-gnu
+143 silly reify mark deleted [
+143 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@next\\swc-linux-arm64-gnu'
+143 silly reify ]
+144 verbose reify failed optional dependency C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@next\swc-darwin-x64
+145 silly reify mark deleted [
+145 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@next\\swc-darwin-x64'
+145 silly reify ]
+146 verbose reify failed optional dependency C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@next\swc-darwin-arm64
+147 silly reify mark deleted [
+147 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@next\\swc-darwin-arm64'
+147 silly reify ]
+148 silly packumentCache corgi:https://registry.npmjs.org/update-browserslist-db cache-miss
+149 silly packumentCache corgi:https://registry.npmjs.org/resolve cache-miss
+150 silly packumentCache corgi:https://registry.npmjs.org/nanoid cache-miss
+151 silly packumentCache corgi:https://registry.npmjs.org/jiti cache-miss
+152 silly packumentCache corgi:https://registry.npmjs.org/semver cache-miss
+153 silly packumentCache corgi:https://registry.npmjs.org/baseline-browser-mapping cache-miss
+154 silly packumentCache corgi:https://registry.npmjs.org/autoprefixer cache-miss
+155 silly packumentCache corgi:https://registry.npmjs.org/cssesc cache-miss
+156 silly packumentCache corgi:https://registry.npmjs.org/browserslist cache-miss
+157 http cache @swc/helpers@https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.15.tgz 0ms (cache hit)
+158 http cache tailwindcss@https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.4.19.tgz 0ms (cache hit)
+159 http cache sucrase@https://registry.npmjs.org/sucrase/-/sucrase-3.35.1.tgz 0ms (cache hit)
+160 http cache react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.3.0.tgz 0ms (cache hit)
+161 http cache next@https://registry.npmjs.org/next/-/next-15.5.26.tgz 0ms (cache hit)
+162 http cache caniuse-lite@https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001813.tgz 0ms (cache hit)
+163 http cache lucide-react@https://registry.npmjs.org/lucide-react/-/lucide-react-0.468.0.tgz 0ms (cache hit)
+164 silly tarball no local data for sucrase@https://registry.npmjs.org/sucrase/-/sucrase-3.35.1.tgz. Extracting by manifest.
+165 verbose reify failed optional dependency C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\semver
+166 silly reify mark deleted [
+166 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\semver',
+166 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\semver',
+166 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\semver.cmd',
+166 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\.bin\\semver.ps1'
+166 silly reify ]
+167 verbose reify failed optional dependency C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\sharp
+168 silly reify mark deleted [
+168 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\sharp'
+168 silly reify ]
+169 verbose reify failed optional dependency C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\colour
+170 silly reify mark deleted [
+170 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@img\\colour'
+170 silly reify ]
+171 verbose reify failed optional dependency C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\detect-libc
+172 silly reify mark deleted [
+172 silly reify   'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\detect-libc'
+172 silly reify ]
+173 warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\next\dist\compiled\react-dom-experimental\cjs\react-dom-test-utils.production.js'
+174 silly tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\next\dist\compiled\react-dom-experimental\cjs\react-dom-test-utils.production.js' [Error: ENOENT: no such file or directory, open 'C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\next\dist\compiled\react-dom-experimental\cjs\react-dom-test-utils.production.js'] {
+174 silly tar   errno: -4058,
+174 silly tar   code: 'ENOENT',
+174 silly tar   syscall: 'open',
+174 silly tar   path: 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\next\\dist\\compiled\\react-dom-experimental\\cjs\\react-dom-test-utils.production.js',
+174 silly tar   entry: ReadEntry {
+174 silly tar     _events: [Object: null prototype] {},
+174 silly tar     _eventsCount: 0,
+174 silly tar     _maxListeners: undefined,
+174 silly tar     writable: false,
+174 silly tar     readable: false,
+174 silly tar     extended: null,
+174 silly tar     globalExtended: null,
+174 silly tar     header: Header {
+174 silly tar       cksumValid: true,
+174 silly tar       needPax: false,
+174 silly tar       nullBlock: false,
+174 silly tar       block: null,
+174 silly tar       path: 'package/dist/compiled/react-dom-experimental/cjs/react-dom-test-utils.production.js',
+174 silly tar       mode: 420,
+174 silly tar       uid: 0,
+174 silly tar       gid: 0,
+174 silly tar       size: 718,
+174 silly tar       mtime: 1985-10-26T08:15:00.000Z,
+174 silly tar       cksum: 11918,
+174 silly tar       linkpath: '',
+174 silly tar       uname: '',
+174 silly tar       gname: '',
+174 silly tar       devmaj: 0,
+174 silly tar       devmin: 0,
+174 silly tar       atime: null,
+174 silly tar       ctime: null,
+174 silly tar       Symbol(type): '0'
+174 silly tar     },
+174 silly tar     startBlockSize: 1024,
+174 silly tar     blockRemain: 0,
+174 silly tar     remain: 0,
+174 silly tar     type: 'File',
+174 silly tar     meta: false,
+174 silly tar     ignore: false,
+174 silly tar     path: 'dist/compiled/react-dom-experimental/cjs/react-dom-test-utils.production.js',
+174 silly tar     mode: 438,
+174 silly tar     uid: 0,
+174 silly tar     gid: 0,
+174 silly tar     uname: '',
+174 silly tar     gname: '',
+174 silly tar     size: 718,
+174 silly tar     mtime: 1985-10-26T08:15:00.000Z,
+174 silly tar     atime: null,
+174 silly tar     ctime: null,
+174 silly tar     linkpath: '',
+174 silly tar     absolute: 'C:/Users/DDR3/Documents/Codex/2026-09-29/i-x20/node_modules/next/dist/compiled/react-dom-experimental/cjs/react-dom-test-utils.production.js',
+174 silly tar     Symbol(shapeMode): false,
+174 silly tar     Symbol(kCapture): false,
+174 silly tar     Symbol(flowing): false,
+174 silly tar     Symbol(paused): true,
+174 silly tar     Symbol(pipes): [ [Pipe] ],
+174 silly tar     Symbol(buffer): [],
+174 silly tar     Symbol(objectMode): false,
+174 silly tar     Symbol(encoding): null,
+174 silly tar     Symbol(async): false,
+174 silly tar     Symbol(decoder): null,
+174 silly tar     Symbol(EOF): true,
+174 silly tar     Symbol(emittedEnd): true,
+174 silly tar     Symbol(emittingEnd): false,
+174 silly tar     Symbol(closed): false,
+174 silly tar     Symbol(emittedError): null,
+174 silly tar     Symbol(bufferLength): 0,
+174 silly tar     Symbol(destroyed): false,
+174 silly tar     Symbol(signal): undefined,
+174 silly tar     Symbol(aborted): false
+174 silly tar   },
+174 silly tar   cwd: 'C:/Users/DDR3/Documents/Codex/2026-09-29/i-x20/node_modules/next',
+174 silly tar   tarCode: 'TAR_ENTRY_ERROR'
+174 silly tar }
+175 warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\next\dist\compiled\react-dom\cjs\react-dom-test-utils.production.js'
+176 silly tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\next\dist\compiled\react-dom\cjs\react-dom-test-utils.production.js' [Error: ENOENT: no such file or directory, open 'C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\next\dist\compiled\react-dom\cjs\react-dom-test-utils.production.js'] {
+176 silly tar   errno: -4058,
+176 silly tar   code: 'ENOENT',
+176 silly tar   syscall: 'open',
+176 silly tar   path: 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\next\\dist\\compiled\\react-dom\\cjs\\react-dom-test-utils.production.js',
+176 silly tar   entry: ReadEntry {
+176 silly tar     _events: [Object: null prototype] {},
+176 silly tar     _eventsCount: 0,
+176 silly tar     _maxListeners: undefined,
+176 silly tar     writable: false,
+176 silly tar     readable: false,
+176 silly tar     extended: null,
+176 silly tar     globalExtended: null,
+176 silly tar     header: Header {
+176 silly tar       cksumValid: true,
+176 silly tar       needPax: false,
+176 silly tar       nullBlock: false,
+176 silly tar       block: null,
+176 silly tar       path: 'package/dist/compiled/react-dom/cjs/react-dom-test-utils.production.js',
+176 silly tar       mode: 420,
+176 silly tar       uid: 0,
+176 silly tar       gid: 0,
+176 silly tar       size: 705,
+176 silly tar       mtime: 1985-10-26T08:15:00.000Z,
+176 silly tar       cksum: 10573,
+176 silly tar       linkpath: '',
+176 silly tar       uname: '',
+176 silly tar       gname: '',
+176 silly tar       devmaj: 0,
+176 silly tar       devmin: 0,
+176 silly tar       atime: null,
+176 silly tar       ctime: null,
+176 silly tar       Symbol(type): '0'
+176 silly tar     },
+176 silly tar     startBlockSize: 1024,
+176 silly tar     blockRemain: 0,
+176 silly tar     remain: 0,
+176 silly tar     type: 'File',
+176 silly tar     meta: false,
+176 silly tar     ignore: false,
+176 silly tar     path: 'dist/compiled/react-dom/cjs/react-dom-test-utils.production.js',
+176 silly tar     mode: 438,
+176 silly tar     uid: 0,
+176 silly tar     gid: 0,
+176 silly tar     uname: '',
+176 silly tar     gname: '',
+176 silly tar     size: 705,
+176 silly tar     mtime: 1985-10-26T08:15:00.000Z,
+176 silly tar     atime: null,
+176 silly tar     ctime: null,
+176 silly tar     linkpath: '',
+176 silly tar     absolute: 'C:/Users/DDR3/Documents/Codex/2026-09-29/i-x20/node_modules/next/dist/compiled/react-dom/cjs/react-dom-test-utils.production.js',
+176 silly tar     Symbol(shapeMode): false,
+176 silly tar     Symbol(kCapture): false,
+176 silly tar     Symbol(flowing): false,
+176 silly tar     Symbol(paused): true,
+176 silly tar     Symbol(pipes): [ [Pipe] ],
+176 silly tar     Symbol(buffer): [],
+176 silly tar     Symbol(objectMode): false,
+176 silly tar     Symbol(encoding): null,
+176 silly tar     Symbol(async): false,
+176 silly tar     Symbol(decoder): null,
+176 silly tar     Symbol(EOF): true,
+176 silly tar     Symbol(emittedEnd): true,
+176 silly tar     Symbol(emittingEnd): false,
+176 silly tar     Symbol(closed): false,
+176 silly tar     Symbol(emittedError): null,
+176 silly tar     Symbol(bufferLength): 0,
+176 silly tar     Symbol(destroyed): false,
+176 silly tar     Symbol(signal): undefined,
+176 silly tar     Symbol(aborted): false
+176 silly tar   },
+176 silly tar   cwd: 'C:/Users/DDR3/Documents/Codex/2026-09-29/i-x20/node_modules/next',
+176 silly tar   tarCode: 'TAR_ENTRY_ERROR'
+176 silly tar }
+177 warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\next\dist\compiled\react-dom-experimental\cjs\react-dom-unstable_testing.development.js'
+178 silly tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\next\dist\compiled\react-dom-experimental\cjs\react-dom-unstable_testing.development.js' [Error: ENOENT: no such file or directory, open 'C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\next\dist\compiled\react-dom-experimental\cjs\react-dom-unstable_testing.development.js'] {
+178 silly tar   errno: -4058,
+178 silly tar   code: 'ENOENT',
+178 silly tar   syscall: 'open',
+178 silly tar   path: 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\next\\dist\\compiled\\react-dom-experimental\\cjs\\react-dom-unstable_testing.development.js',
+178 silly tar   entry: ReadEntry {
+178 silly tar     _events: [Object: null prototype] { end: [Function (anonymous)] },
+178 silly tar     _eventsCount: 1,
+178 silly tar     _maxListeners: undefined,
+178 silly tar     writable: false,
+178 silly tar     readable: true,
+178 silly tar     extended: null,
+178 silly tar     globalExtended: null,
+178 silly tar     header: Header {
+178 silly tar       cksumValid: true,
+178 silly tar       needPax: false,
+178 silly tar       nullBlock: false,
+178 silly tar       block: null,
+178 silly tar       path: 'package/dist/compiled/react-dom-experimental/cjs/react-dom-unstable_testing.development.js',
+178 silly tar       mode: 420,
+178 silly tar       uid: 0,
+178 silly tar       gid: 0,
+178 silly tar       size: 1220619,
+178 silly tar       mtime: 1985-10-26T08:15:00.000Z,
+178 silly tar       cksum: 12683,
+178 silly tar       linkpath: '',
+178 silly tar       uname: '',
+178 silly tar       gname: '',
+178 silly tar       devmaj: 0,
+178 silly tar       devmin: 0,
+178 silly tar       atime: null,
+178 silly tar       ctime: null,
+178 silly tar       Symbol(type): '0'
+178 silly tar     },
+178 silly tar     startBlockSize: 1221120,
+178 silly tar     blockRemain: 0,
+178 silly tar     remain: 0,
+178 silly tar     type: 'File',
+178 silly tar     meta: false,
+178 silly tar     ignore: false,
+178 silly tar     path: 'dist/compiled/react-dom-experimental/cjs/react-dom-unstable_testing.development.js',
+178 silly tar     mode: 438,
+178 silly tar     uid: 0,
+178 silly tar     gid: 0,
+178 silly tar     uname: '',
+178 silly tar     gname: '',
+178 silly tar     size: 1220619,
+178 silly tar     mtime: 1985-10-26T08:15:00.000Z,
+178 silly tar     atime: null,
+178 silly tar     ctime: null,
+178 silly tar     linkpath: '',
+178 silly tar     absolute: 'C:/Users/DDR3/Documents/Codex/2026-09-29/i-x20/node_modules/next/dist/compiled/react-dom-experimental/cjs/react-dom-unstable_testing.development.js',
+178 silly tar     Symbol(shapeMode): false,
+178 silly tar     Symbol(kCapture): false,
+178 silly tar     Symbol(flowing): false,
+178 silly tar     Symbol(paused): true,
+178 silly tar     Symbol(pipes): [ [Pipe] ],
+178 silly tar     Symbol(buffer): [
+178 silly tar       <Buffer 20 29 20 7b 0a 20 20 20 20 20 20 20 20 69 66 20 28 0a 20 20 20 20 20 20 20 20 20 20 28 35 20 3d 3d 3d 20 63 68 69 6c 64 2e 74 61 67 20 26 26 20 66 6e ... 16334 more bytes>,
+178 silly tar       <Buffer 6d 69 6e 65 43 6f 6d 70 6f 6e 65 6e 74 46 72 61 6d 65 52 6f 6f 74 22 3b 0a 20 20 20 20 20 20 20 20 76 61 72 20 6e 61 6d 65 50 72 6f 70 44 65 73 63 72 ... 16334 more bytes>,
+178 silly tar       <Buffer 20 20 20 20 20 20 20 20 63 61 73 65 20 36 34 3a 0a 20 20 20 20 20 20 20 20 20 20 72 65 74 75 72 6e 20 63 75 72 72 65 6e 74 54 69 6d 65 20 2b 20 32 35 ... 16334 more bytes>,
+178 silly tar       <Buffer 72 6e 20 76 61 6c 75 65 3b 0a 20 20 20 20 20 20 20 20 63 61 73 65 20 22 6f 62 6a 65 63 74 22 3a 0a 20 20 20 20 20 20 20 20 20 20 72 65 74 75 72 6e 20 ... 16334 more bytes>,
+178 silly tar       <Buffer 79 70 65 0a 20 20 20 20 20 20 20 20 20 20 20 20 3a 20 6e 61 6d 65 3b 0a 20 20 20 20 20 20 20 20 63 61 73 65 20 22 66 75 6e 63 74 69 6f 6e 22 3a 0a 20 ... 16334 more bytes>,
+178 silly tar       <Buffer 20 20 20 20 20 63 61 73 65 20 22 66 72 61 6d 65 22 3a 0a 20 20 20 20 20 20 20 20 63 61 73 65 20 22 74 62 6f 64 79 22 3a 0a 20 20 20 20 20 20 20 20 63 ... 16334 more bytes>,
+178 silly tar       <Buffer 5d 20 3d 20 21 30 29 0a 20 20 20 20 20 20 20 20 20 20 29 3b 0a 20 20 20 20 20 20 20 20 69 66 20 28 45 56 45 4e 54 5f 4e 41 4d 45 5f 52 45 47 45 58 2e ... 16334 more bytes>,
+178 silly tar       <Buffer 20 20 20 20 20 20 20 20 20 20 65 76 65 6e 74 20 26 26 0a 20 20 20 20 20 20 20 20 20 20 20 20 28 65 76 65 6e 74 2e 73 74 6f 70 50 72 6f 70 61 67 61 74 ... 16334 more bytes>,
+178 silly tar       <Buffer 20 20 20 20 20 20 20 20 20 20 28 21 69 73 41 72 72 61 79 49 6d 70 6c 28 76 61 6c 75 65 2e 63 68 69 6c 64 72 65 6e 29 20 7c 7c 0a 20 20 20 20 20 20 20 ... 16334 more bytes>,
+178 silly tar       <Buffer 20 20 20 20 20 20 20 20 63 6f 6e 73 6f 6c 65 2c 0a 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 6e 61 6d 65 2c 0a 20 20 20 20 20 20 20 ... 16334 more bytes>,
+178 silly tar       <Buffer 72 74 54 69 6d 65 20 3d 20 2d 31 2e 31 3b 0a 20 20 20 20 20 20 74 68 69 73 2e 74 72 65 65 42 61 73 65 44 75 72 61 74 69 6f 6e 20 3d 20 74 68 69 73 2e ... 16334 more bytes>,
+178 silly tar       <Buffer 28 73 69 62 6c 69 6e 67 73 2e 64 69 73 74 61 6e 63 65 46 72 6f 6d 4c 65 61 66 20 3d 20 64 69 73 74 61 6e 63 65 46 72 6f 6d 4c 65 61 66 29 2c 0a 20 20 ... 16334 more bytes>,
+178 silly tar       <Buffer 65 70 65 6e 64 65 6e 63 69 65 73 3b 0a 20 20 20 20 20 20 6e 75 6c 6c 20 21 3d 3d 20 77 6f 72 6b 49 6e 50 72 6f 67 72 65 73 73 20 26 26 20 28 77 6f 72 ... 16334 more bytes>,
+178 silly tar       <Buffer 6e 61 6c 73 2e 61 63 74 51 75 65 75 65 20 26 26 0a 20 20 20 20 20 20 20 20 28 52 65 61 63 74 53 68 61 72 65 64 49 6e 74 65 72 6e 61 6c 73 2e 64 69 64 ... 16334 more bytes>,
+178 silly tar       <Buffer 6d 46 72 61 67 6d 65 6e 74 28 0a 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 6e 65 77 43 68 69 6c 64 2c 0a 20 20 20 20 20 20 20 20 20 20 20 20 20 ... 16334 more bytes>,
+178 silly tar       <Buffer 20 20 20 20 20 20 20 20 72 65 74 75 72 6e 46 69 62 65 72 2c 0a 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 6f 6c 64 46 69 62 65 72 2c 0a 20 ... 16334 more bytes>,
+178 silly tar       <Buffer 65 51 75 65 75 65 20 26 26 0a 20 20 20 20 20 20 20 20 21 64 69 64 57 61 72 6e 55 70 64 61 74 65 49 6e 73 69 64 65 55 70 64 61 74 65 0a 20 20 20 20 20 ... 16334 more bytes>,
+178 silly tar       <Buffer 65 72 72 6f 72 28 0a 20 20 20 20 20 20 20 20 20 20 22 52 65 61 63 74 44 4f 4d 2e 75 73 65 46 6f 72 6d 53 74 61 74 65 20 68 61 73 20 62 65 65 6e 20 72 ... 16334 more bytes>,
+178 silly tar       <Buffer 74 65 4c 61 6e 65 0a 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 3a 20 28 72 65 6e 64 65 72 4c 61 6e 65 73 20 26 20 75 70 64 61 74 65 4c 61 6e 65 ... 16334 more bytes>,
+178 silly tar       <Buffer 20 20 20 20 20 20 20 20 20 20 68 61 6e 64 6c 65 41 63 74 69 6f 6e 52 65 74 75 72 6e 56 61 6c 75 65 28 61 63 74 69 6f 6e 51 75 65 75 65 2c 20 6e 6f 64 ... 16334 more bytes>,
+178 silly tar       <Buffer 73 79 6e 63 54 72 61 6e 73 69 74 69 6f 6e 28 29 20 7b 0a 20 20 20 20 20 20 52 65 61 63 74 53 68 61 72 65 64 49 6e 74 65 72 6e 61 6c 73 2e 61 73 79 6e ... 16334 more bytes>,
+178 silly tar       <Buffer 61 74 65 20 3d 20 70 72 65 76 53 74 61 74 65 29 3b 0a 20 20 20 20 7d 0a 20 20 20 20 66 75 6e 63 74 69 6f 6e 20 63 68 65 63 6b 53 68 6f 75 6c 64 43 6f ... 16334 more bytes>,
+178 silly tar       <Buffer 28 77 6f 72 6b 49 6e 50 72 6f 67 72 65 73 73 2c 20 6e 75 6c 6c 2c 20 6e 65 78 74 43 68 69 6c 64 72 65 6e 2c 20 72 65 6e 64 65 72 4c 61 6e 65 73 29 0a ... 16334 more bytes>,
+178 silly tar       <Buffer 6f 76 65 64 20 69 6e 20 52 65 61 63 74 20 31 39 2e 20 55 73 65 20 52 65 61 63 74 2e 63 72 65 61 74 65 43 6f 6e 74 65 78 74 28 29 20 77 69 74 68 20 52 ... 16334 more bytes>,
+178 silly tar       <Buffer 20 20 20 20 20 20 20 43 6f 6d 70 6f 6e 65 6e 74 2c 0a 20 20 20 20 20 20 20 20 20 20 20 20 73 74 61 74 65 2c 0a 20 20 20 20 20 20 20 20 20 20 20 20 6e ... 16334 more bytes>,
+178 silly tar       <Buffer 20 20 20 20 20 20 20 20 76 61 72 20 6e 65 78 74 50 72 69 6d 61 72 79 43 68 69 6c 64 72 65 6e 20 3d 20 4a 53 43 6f 6d 70 69 6c 65 72 5f 6f 62 6a 65 63 ... 16334 more bytes>,
+178 silly tar       <Buffer 20 3d 20 6d 6f 75 6e 74 53 75 73 70 65 6e 73 65 50 72 69 6d 61 72 79 43 68 69 6c 64 72 65 6e 28 0a 20 20 20 20 20 20 20 20 77 6f 72 6b 49 6e 50 72 6f ... 16334 more bytes>,
+178 silly tar       <Buffer 75 72 72 65 6e 74 2e 6d 65 6d 6f 69 7a 65 64 53 74 61 74 65 2e 63 61 63 68 65 0a 20 20 20 20 20 20 20 20 20 20 29 3b 0a 20 20 20 20 20 20 7d 0a 20 20 ... 16334 more bytes>,
+178 silly tar       <Buffer 20 20 20 20 20 20 20 20 20 20 28 48 6f 73 74 54 72 61 6e 73 69 74 69 6f 6e 43 6f 6e 74 65 78 74 2e 5f 63 75 72 72 65 6e 74 56 61 6c 75 65 20 3d 20 70 ... 16334 more bytes>,
+178 silly tar       <Buffer 72 6f 70 73 20 3d 20 77 6f 72 6b 49 6e 50 72 6f 67 72 65 73 73 2e 70 65 6e 64 69 6e 67 50 72 6f 70 73 3b 0a 20 20 20 20 20 20 70 6f 70 54 72 65 65 43 ... 16334 more bytes>,
+178 silly tar       <Buffer 72 6f 72 73 54 6f 52 65 63 6f 76 65 72 61 62 6c 65 28 29 29 2c 0a 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 6e 75 6c 6c 20 21 3d 3d 20 63 75 72 ... 16334 more bytes>,
+178 silly tar       <Buffer 61 6b 3b 0a 20 20 20 20 20 20 20 20 63 61 73 65 20 31 30 3a 0a 20 20 20 20 20 20 20 20 20 20 70 6f 70 50 72 6f 76 69 64 65 72 28 69 6e 74 65 72 72 75 ... 16334 more bytes>,
+178 silly tar       <Buffer 20 20 20 7d 0a 20 20 20 20 66 75 6e 63 74 69 6f 6e 20 63 6f 6d 6d 69 74 46 72 61 67 6d 65 6e 74 49 6e 73 74 61 6e 63 65 44 65 6c 65 74 69 6f 6e 45 66 ... 16334 more bytes>,
+178 silly tar       <Buffer 20 20 20 20 20 20 20 30 20 21 3d 3d 20 28 63 68 61 6e 67 65 64 50 61 72 65 6e 74 2e 73 75 62 74 72 65 65 46 6c 61 67 73 20 26 20 33 33 35 35 34 34 33 ... 16334 more bytes>,
+178 silly tar       <Buffer 20 20 63 61 73 65 20 22 48 54 4d 4c 22 3a 0a 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 63 61 73 65 20 22 42 4f 44 59 22 3a 0a 20 20 20 20 ... 16334 more bytes>,
+178 silly tar       <Buffer 64 52 6f 6f 74 2c 0a 20 20 20 20 20 20 20 20 20 20 20 20 6e 65 61 72 65 73 74 4d 6f 75 6e 74 65 64 41 6e 63 65 73 74 6f 72 2c 0a 20 20 20 20 20 20 20 ... 16334 more bytes>,
+178 silly tar       <Buffer 20 20 20 20 20 20 20 20 6c 61 6e 65 73 2e 67 65 74 41 74 74 72 69 62 75 74 65 28 22 63 6f 6e 74 65 6e 74 22 29 20 3d 3d 3d 0a 20 20 20 20 20 20 20 20 ... 16334 more bytes>,
+178 silly tar       <Buffer 73 68 65 64 57 6f 72 6b 29 3b 0a 20 20 20 20 20 20 7d 0a 20 20 20 20 20 20 28 66 69 6e 69 73 68 65 64 57 6f 72 6b 2e 6d 6f 64 65 20 26 20 50 72 6f 66 ... 16334 more bytes>,
+178 silly tar       <Buffer 20 20 20 63 6f 6d 6d 69 74 50 61 73 73 69 76 65 4d 6f 75 6e 74 4f 6e 46 69 62 65 72 28 0a 20 20 20 20 20 20 20 20 20 20 20 20 20 20 72 6f 6f 74 2c 0a ... 16334 more bytes>,
+178 silly tar       <Buffer 73 69 74 69 6f 6e 73 2c 0a 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 65 6e 64 54 69 6d 65 0a 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 ... 16334 more bytes>,
+178 silly tar       <Buffer 20 20 20 20 20 69 66 20 28 6e 75 6c 6c 20 21 3d 3d 20 70 72 65 76 45 66 66 65 63 74 53 74 61 72 74 29 20 7b 0a 20 20 20 20 20 20 20 20 20 20 20 20 20 ... 16334 more bytes>,
+178 silly tar       <Buffer 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 62 72 65 61 6b 3b 0a 20 20 20 20 20 20 20 20 20 20 20 20 20 20 63 61 73 65 20 36 3a 0a 20 20 20 20 20 ... 16334 more bytes>,
+178 silly tar       <Buffer 6c 61 6e 65 29 20 7b 0a 20 20 20 20 20 20 69 73 52 75 6e 6e 69 6e 67 49 6e 73 65 72 74 69 6f 6e 45 66 66 65 63 74 20 26 26 0a 20 20 20 20 20 20 20 20 ... 16334 more bytes>,
+178 silly tar       <Buffer 20 20 20 20 20 20 20 73 75 62 74 72 65 65 46 6c 61 67 73 20 3d 20 77 61 69 74 46 6f 72 43 6f 6d 6d 69 74 54 6f 42 65 52 65 61 64 79 28 29 3b 0a 20 20 ... 16334 more bytes>,
+178 silly tar       <Buffer 6d 65 20 26 3d 20 6c 61 6e 65 73 3b 20 30 20 3c 20 65 6e 64 54 69 6d 65 3b 20 29 0a 20 20 20 20 20 20 20 20 20 20 28 64 65 62 75 67 54 61 73 6b 20 3d ... 16334 more bytes>,
+178 silly tar       <Buffer 20 20 20 20 20 20 74 72 79 20 7b 0a 20 20 20 20 20 20 20 20 69 66 20 28 0a 20 20 20 20 20 20 20 20 20 20 74 68 72 6f 77 45 78 63 65 70 74 69 6f 6e 28 ... 16334 more bytes>,
+178 silly tar       <Buffer 3b 0a 20 20 20 20 20 20 20 20 20 20 7d 0a 20 20 20 20 20 20 20 20 7d 0a 20 20 20 20 20 20 20 20 72 6f 6f 74 2e 63 75 72 72 65 6e 74 20 3d 20 66 69 6e ... 16334 more bytes>,
+178 silly tar       <Buffer 72 61 6e 73 66 6f 72 6d 24 6a 73 63 6f 6d 70 24 30 3b 0a 20 20 20 20 20 20 20 20 20 20 63 6f 6e 74 61 69 6e 65 72 49 6e 73 74 61 6e 63 65 2e 70 61 72 ... 16334 more bytes>,
+178 silly tar       <Buffer 4c 45 5f 4d 53 29 0a 20 20 20 20 20 20 20 20 20 20 3f 20 28 65 78 65 63 75 74 69 6f 6e 43 6f 6e 74 65 78 74 20 26 20 52 65 6e 64 65 72 43 6f 6e 74 65 ... 16334 more bytes>,
+178 silly tar       <Buffer 68 65 64 75 6c 65 49 6e 4d 69 63 72 6f 74 61 73 6b 28 29 3b 0a 20 20 20 20 20 20 20 20 20 20 72 65 74 75 72 6e 20 6e 75 6c 6c 3b 0a 20 20 20 20 20 20 ... 16334 more bytes>,
+178 silly tar       <Buffer 20 20 20 20 20 63 61 73 65 20 22 70 6f 69 6e 74 65 72 6d 6f 76 65 22 3a 0a 20 20 20 20 20 20 20 20 20 20 20 20 20 20 63 61 73 65 20 22 70 6f 69 6e 74 ... 16334 more bytes>,
+178 silly tar       <Buffer 20 28 0a 20 20 20 20 20 20 20 20 76 61 72 20 72 65 67 69 73 74 72 61 74 69 6f 6e 4e 61 6d 65 20 3d 20 65 76 65 6e 74 2e 5f 72 65 61 63 74 4e 61 6d 65 ... 16334 more bytes>,
+178 silly tar       <Buffer 63 61 73 65 20 22 64 65 66 61 75 6c 74 56 61 6c 75 65 22 3a 0a 20 20 20 20 20 20 20 20 63 61 73 65 20 22 64 65 66 61 75 6c 74 43 68 65 63 6b 65 64 22 ... 16334 more bytes>,
+178 silly tar       <Buffer 20 63 68 65 63 6b 43 6f 6e 74 72 6f 6c 6c 65 64 56 61 6c 75 65 50 72 6f 70 73 28 22 74 65 78 74 61 72 65 61 22 2c 20 70 72 6f 70 73 29 3b 0a 20 20 20 ... 16334 more bytes>,
+178 silly tar       <Buffer 79 38 20 3d 20 6c 61 73 74 50 72 6f 70 73 5b 5f 70 72 6f 70 4b 65 79 31 35 5d 29 2c 0a 20 20 20 20 20 20 20 20 20 20 20 20 20 20 6c 61 73 74 50 72 6f ... 16334 more bytes>,
+178 silly tar       <Buffer 72 69 62 75 74 65 28 0a 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 64 6f 6d 45 6c 65 6d 65 6e 74 2c 0a 20 20 20 20 20 20 20 20 20 20 ... 16334 more bytes>,
+178 silly tar       <Buffer 20 20 20 20 20 22 78 6d 6c 3a 62 61 73 65 22 2c 0a 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 70 72 6f 70 4b 65 79 2c 0a 20 20 20 20 ... 16334 more bytes>,
+178 silly tar       <Buffer 20 6e 6f 64 65 20 21 3d 3d 20 53 55 53 50 45 4e 53 45 5f 50 45 4e 44 49 4e 47 5f 53 54 41 52 54 5f 44 41 54 41 20 26 26 0a 20 20 20 20 20 20 20 20 20 ... 16334 more bytes>,
+178 silly tar       <Buffer 3b 0a 20 20 20 20 20 20 76 61 72 20 69 2c 0a 20 20 20 20 20 20 20 20 72 65 73 75 6c 74 20 3d 20 22 22 3b 0a 20 20 20 20 20 20 66 6f 72 20 28 69 20 3d ... 16334 more bytes>,
+178 silly tar       <Buffer 6e 63 65 2e 5f 6f 62 73 65 72 76 65 72 73 2e 66 6f 72 45 61 63 68 28 66 75 6e 63 74 69 6f 6e 20 28 6f 62 73 65 72 76 65 72 29 20 7b 0a 20 20 20 20 20 ... 16334 more bytes>,
+178 silly tar       <Buffer 75 72 73 6f 72 2e 63 75 72 72 65 6e 74 29 0a 20 20 20 20 20 20 20 20 3f 20 67 65 74 48 6f 69 73 74 61 62 6c 65 52 6f 6f 74 28 72 65 73 6f 75 72 63 65 ... 16334 more bytes>,
+178 silly tar       <Buffer 68 72 65 66 20 6b 65 79 2e 20 52 65 61 63 74 20 63 61 6e 20 68 6f 69 73 74 20 61 6e 64 20 64 65 64 75 70 6c 69 63 61 74 65 20 3c 73 74 79 6c 65 3e 20 ... 16334 more bytes>,
+178 silly tar       <Buffer 75 6e 63 74 69 6f 6e 2e 20 49 6e 73 74 65 61 64 20 72 65 63 65 69 76 65 64 3a 20 25 73 2e 22 2c 0a 20 20 20 20 20 20 20 20 20 20 20 20 63 61 6c 6c 62 ... 16334 more bytes>,
+178 silly tar       <Buffer 20 20 20 20 20 20 20 20 61 74 74 65 6d 70 74 43 6f 6e 74 69 6e 75 6f 75 73 48 79 64 72 61 74 69 6f 6e 28 74 61 72 67 65 74 43 6f 6e 74 61 69 6e 65 72 ... 16334 more bytes>,
+178 silly tar       <Buffer 20 20 20 20 20 20 20 5d 2c 0a 20 20 20 20 20 20 20 20 62 6f 72 64 65 72 42 6c 6f 63 6b 53 74 61 72 74 3a 20 5b 0a 20 20 20 20 20 20 20 20 20 20 22 62 ... 16334 more bytes>,
+178 silly tar       <Buffer 79 22 2c 0a 20 20 20 20 20 20 20 20 66 6c 6f 6f 64 63 6f 6c 6f 72 3a 20 22 66 6c 6f 6f 64 43 6f 6c 6f 72 22 2c 0a 20 20 20 20 20 20 20 20 22 66 6c 6f ... 16334 more bytes>,
+178 silly tar       <Buffer 6c 22 2c 0a 20 20 20 20 20 20 20 20 31 38 3a 20 22 41 6c 74 22 2c 0a 20 20 20 20 20 20 20 20 31 39 3a 20 22 50 61 75 73 65 22 2c 0a 20 20 20 20 20 20 ... 16334 more bytes>,
+178 silly tar       <Buffer 20 20 20 20 20 2d 31 20 3d 3d 3d 20 6e 65 77 45 76 65 6e 74 54 79 70 65 2e 69 6e 64 65 78 4f 66 28 74 72 61 6e 73 69 74 69 6f 6e 54 79 70 65 29 20 26 ... 16334 more bytes>,
+178 silly tar       <Buffer 61 20 72 65 61 6c 20 65 72 72 6f 72 21 20 49 74 27 73 20 61 6e 20 69 6d 70 6c 65 6d 65 6e 74 61 74 69 6f 6e 20 64 65 74 61 69 6c 20 6f 66 20 60 75 73 ... 16334 more bytes>,
+178 silly tar       <Buffer 63 6b 3a 20 66 75 6e 63 74 69 6f 6e 20 28 63 61 6c 6c 62 61 63 6b 2c 20 64 65 70 73 29 20 7b 0a 20 20 20 20 20 20 20 20 63 75 72 72 65 6e 74 48 6f 6f ... 16334 more bytes>,
+178 silly tar       <Buffer 20 20 20 72 65 74 75 72 6e 20 75 70 64 61 74 65 4d 65 6d 6f 28 63 72 65 61 74 65 2c 20 64 65 70 73 29 3b 0a 20 20 20 20 20 20 20 20 7d 20 66 69 6e 61 ... 16334 more bytes>,
+178 silly tar       <Buffer 20 20 46 41 4c 4c 42 41 43 4b 5f 54 48 52 4f 54 54 4c 45 5f 4d 53 20 3d 20 33 30 30 2c 0a 20 20 20 20 20 20 77 6f 72 6b 49 6e 50 72 6f 67 72 65 73 73 ... 16334 more bytes>,
+178 silly tar       <Buffer 47 3b 0a 20 20 20 20 20 20 70 61 72 65 6e 74 48 6f 73 74 46 69 62 65 72 20 3d 0a 20 20 20 20 20 20 20 20 28 70 61 72 65 6e 74 48 6f 73 74 49 6e 73 74 ... 16334 more bytes>,
+178 silly tar       <Buffer 61 72 67 73 2e 63 6f 6e 74 61 69 6e 65 72 49 6e 66 6f 3b 0a 20 20 20 20 20 20 20 20 20 20 28 65 78 65 63 75 74 69 6f 6e 43 6f 6e 74 65 78 74 20 26 20 ... 15833 more bytes>
+178 silly tar     ],
+178 silly tar     Symbol(objectMode): false,
+178 silly tar     Symbol(encoding): null,
+178 silly tar     Symbol(async): false,
+178 silly tar     Symbol(decoder): null,
+178 silly tar     Symbol(EOF): true,
+178 silly tar     Symbol(emittedEnd): false,
+178 silly tar     Symbol(emittingEnd): false,
+178 silly tar     Symbol(closed): false,
+178 silly tar     Symbol(emittedError): null,
+178 silly tar     Symbol(bufferLength): 1211915,
+178 silly tar     Symbol(destroyed): false,
+178 silly tar     Symbol(signal): undefined,
+178 silly tar     Symbol(aborted): false
+178 silly tar   },
+178 silly tar   cwd: 'C:/Users/DDR3/Documents/Codex/2026-09-29/i-x20/node_modules/next',
+178 silly tar   tarCode: 'TAR_ENTRY_ERROR'
+178 silly tar }
+179 warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\next\dist\compiled\react-dom-experimental\cjs\react-dom-unstable_testing.production.js'
+180 silly tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\next\dist\compiled\react-dom-experimental\cjs\react-dom-unstable_testing.production.js' [Error: ENOENT: no such file or directory, open 'C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\next\dist\compiled\react-dom-experimental\cjs\react-dom-unstable_testing.production.js'] {
+180 silly tar   errno: -4058,
+180 silly tar   code: 'ENOENT',
+180 silly tar   syscall: 'open',
+180 silly tar   path: 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\next\\dist\\compiled\\react-dom-experimental\\cjs\\react-dom-unstable_testing.production.js',
+180 silly tar   entry: ReadEntry {
+180 silly tar     _events: [Object: null prototype] { end: [Function (anonymous)] },
+180 silly tar     _eventsCount: 1,
+180 silly tar     _maxListeners: undefined,
+180 silly tar     writable: false,
+180 silly tar     readable: true,
+180 silly tar     extended: null,
+180 silly tar     globalExtended: null,
+180 silly tar     header: Header {
+180 silly tar       cksumValid: true,
+180 silly tar       needPax: false,
+180 silly tar       nullBlock: false,
+180 silly tar       block: null,
+180 silly tar       path: 'package/dist/compiled/react-dom-experimental/cjs/react-dom-unstable_testing.production.js',
+180 silly tar       mode: 420,
+180 silly tar       uid: 0,
+180 silly tar       gid: 0,
+180 silly tar       size: 670314,
+180 silly tar       mtime: 1985-10-26T08:15:00.000Z,
+180 silly tar       cksum: 12598,
+180 silly tar       linkpath: '',
+180 silly tar       uname: '',
+180 silly tar       gname: '',
+180 silly tar       devmaj: 0,
+180 silly tar       devmin: 0,
+180 silly tar       atime: null,
+180 silly tar       ctime: null,
+180 silly tar       Symbol(type): '0'
+180 silly tar     },
+180 silly tar     startBlockSize: 670720,
+180 silly tar     blockRemain: 0,
+180 silly tar     remain: 0,
+180 silly tar     type: 'File',
+180 silly tar     meta: false,
+180 silly tar     ignore: false,
+180 silly tar     path: 'dist/compiled/react-dom-experimental/cjs/react-dom-unstable_testing.production.js',
+180 silly tar     mode: 438,
+180 silly tar     uid: 0,
+180 silly tar     gid: 0,
+180 silly tar     uname: '',
+180 silly tar     gname: '',
+180 silly tar     size: 670314,
+180 silly tar     mtime: 1985-10-26T08:15:00.000Z,
+180 silly tar     atime: null,
+180 silly tar     ctime: null,
+180 silly tar     linkpath: '',
+180 silly tar     absolute: 'C:/Users/DDR3/Documents/Codex/2026-09-29/i-x20/node_modules/next/dist/compiled/react-dom-experimental/cjs/react-dom-unstable_testing.production.js',
+180 silly tar     Symbol(shapeMode): false,
+180 silly tar     Symbol(kCapture): false,
+180 silly tar     Symbol(flowing): false,
+180 silly tar     Symbol(paused): true,
+180 silly tar     Symbol(pipes): [ [Pipe] ],
+180 silly tar     Symbol(buffer): [
+180 silly tar       <Buffer 6b 20 26 26 20 63 6f 6e 74 72 6f 6c 53 74 61 63 6b 29 20 7b 0a 20 20 20 20 20 20 76 61 72 20 73 61 6d 70 6c 65 4c 69 6e 65 73 20 3d 20 73 61 6d 70 6c ... 16334 more bytes>,
+180 silly tar       <Buffer 6f 75 70 22 2c 0a 20 20 54 44 3a 20 22 63 65 6c 6c 22 2c 0a 20 20 54 48 3a 20 22 63 6f 6c 75 6d 6e 68 65 61 64 65 72 22 2c 0a 20 20 54 48 45 41 44 3a ... 16334 more bytes>,
+180 silly tar       <Buffer 2c 0a 20 20 20 20 5b 22 76 49 64 65 6f 67 72 61 70 68 69 63 22 2c 20 22 76 2d 69 64 65 6f 67 72 61 70 68 69 63 22 5d 2c 0a 20 20 20 20 5b 22 76 4d 61 ... 16334 more bytes>,
+180 silly tar       <Buffer 6f 6d 70 6f 73 69 74 69 6f 6e 65 6e 64 22 3a 0a 20 20 20 20 20 20 72 65 74 75 72 6e 20 67 65 74 44 61 74 61 46 72 6f 6d 43 75 73 74 6f 6d 45 76 65 6e ... 16334 more bytes>,
+180 silly tar       <Buffer 4c 61 6e 65 73 20 7c 3d 20 6c 61 6e 65 29 2c 0a 20 20 20 20 20 20 28 61 6c 74 65 72 6e 61 74 65 20 3d 20 70 61 72 65 6e 74 2e 61 6c 74 65 72 6e 61 74 ... 16334 more bytes>,
+180 silly tar       <Buffer 64 72 61 74 61 62 6c 65 49 6e 73 74 61 6e 63 65 20 3d 20 68 79 64 72 61 74 69 6f 6e 50 61 72 65 6e 74 46 69 62 65 72 20 3d 20 6e 75 6c 6c 3b 0a 20 20 ... 16334 more bytes>,
+180 silly tar       <Buffer 46 72 6f 6d 50 6f 6f 6c 28 29 3b 0a 20 20 72 65 74 75 72 6e 20 6e 75 6c 6c 20 3d 3d 3d 20 63 61 63 68 65 46 72 6f 6d 50 6f 6f 6c 0a 20 20 20 20 3f 20 ... 16334 more bytes>,
+180 silly tar       <Buffer 20 20 20 29 29 2c 0a 20 20 20 20 20 20 20 20 6e 75 6c 6c 20 21 3d 3d 20 6e 65 78 74 4f 6c 64 46 69 62 65 72 20 26 26 0a 20 20 20 20 20 20 20 20 20 20 ... 16334 more bytes>,
+180 silly tar       <Buffer 2c 0a 20 20 20 20 20 20 20 20 20 20 20 20 20 20 74 61 67 3a 20 70 65 6e 64 69 6e 67 51 75 65 75 65 2e 74 61 67 2c 0a 20 20 20 20 20 20 20 20 20 20 20 ... 16334 more bytes>,
+180 silly tar       <Buffer 20 20 20 20 20 20 72 65 76 65 72 74 4c 61 6e 65 3a 20 75 70 64 61 74 65 2e 72 65 76 65 72 74 4c 61 6e 65 2c 0a 20 20 20 20 20 20 20 20 20 20 67 65 73 ... 16334 more bytes>,
+180 silly tar       <Buffer 64 65 70 73 29 2c 0a 20 20 20 20 20 20 28 69 6e 73 74 2e 6c 61 73 74 45 66 66 65 63 74 20 3d 20 74 61 67 29 29 3b 0a 20 20 72 65 74 75 72 6e 20 74 61 ... 16334 more bytes>,
+180 silly tar       <Buffer 29 3b 0a 20 20 20 20 20 20 72 65 74 75 72 6e 20 5b 68 6f 6f 6b 2e 6d 65 6d 6f 69 7a 65 64 53 74 61 74 65 2c 20 72 65 64 75 63 65 72 5d 3b 0a 20 20 20 ... 16334 more bytes>,
+180 silly tar       <Buffer 29 0a 20 20 20 20 72 65 74 75 72 6e 20 28 0a 20 20 20 20 20 20 28 73 75 73 70 65 6e 73 65 42 6f 75 6e 64 61 72 79 20 3d 20 73 75 73 70 65 6e 73 65 48 ... 16334 more bytes>,
+180 silly tar       <Buffer 69 6e 28 0a 20 20 20 20 77 6f 72 6b 49 6e 50 72 6f 67 72 65 73 73 2c 0a 20 20 20 20 43 6f 6d 70 6f 6e 65 6e 74 2c 0a 20 20 20 20 6e 65 78 74 50 72 6f ... 16334 more bytes>,
+180 silly tar       <Buffer 72 6f 70 73 2e 63 68 69 6c 64 72 65 6e 20 7d 2c 0a 20 20 20 20 20 20 20 20 20 20 20 20 20 20 73 68 6f 77 46 61 6c 6c 62 61 63 6b 0a 20 20 20 20 20 20 ... 16334 more bytes>,
+180 silly tar       <Buffer 6f 6e 74 65 78 74 2c 20 63 75 72 72 65 6e 74 2e 6d 65 6d 6f 69 7a 65 64 53 74 61 74 65 2e 63 61 63 68 65 29 3b 0a 20 20 7d 0a 20 20 72 65 74 75 72 6e ... 16334 more bytes>,
+180 silly tar       <Buffer 6f 67 72 65 73 73 2e 74 61 67 29 29 3b 0a 7d 0a 66 75 6e 63 74 69 6f 6e 20 6d 61 72 6b 55 70 64 61 74 65 28 77 6f 72 6b 49 6e 50 72 6f 67 72 65 73 73 ... 16334 more bytes>,
+180 silly tar       <Buffer 62 6c 65 28 29 29 2c 0a 20 20 20 20 20 20 20 20 20 20 20 20 6e 75 6c 6c 20 21 3d 3d 20 63 75 72 72 65 6e 74 20 26 26 0a 20 20 20 20 20 20 20 20 20 20 ... 16334 more bytes>,
+180 silly tar       <Buffer 20 20 20 29 3b 0a 7d 0a 66 75 6e 63 74 69 6f 6e 20 63 6f 6d 6d 69 74 46 72 61 67 6d 65 6e 74 49 6e 73 74 61 6e 63 65 44 65 6c 65 74 69 6f 6e 45 66 66 ... 16334 more bytes>,
+180 silly tar       <Buffer 6c 65 43 68 69 6c 64 72 65 6e 20 26 26 0a 20 20 20 20 20 20 20 20 20 20 28 76 69 65 77 54 72 61 6e 73 69 74 69 6f 6e 43 61 6e 63 65 6c 61 62 6c 65 43 ... 16334 more bytes>,
+180 silly tar       <Buffer 20 20 20 20 69 6e 69 74 69 61 6c 56 61 6c 75 65 20 26 26 20 71 75 65 75 65 43 68 61 6e 67 65 45 76 65 6e 74 28 66 69 6e 69 73 68 65 64 52 6f 6f 74 29 ... 16334 more bytes>,
+180 silly tar       <Buffer 20 20 20 20 69 66 20 28 0a 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 28 28 6c 61 6e 65 73 20 3d 20 68 6f 69 73 74 ... 16334 more bytes>,
+180 silly tar       <Buffer 72 4d 75 74 61 74 69 6f 6e 45 66 66 65 63 74 73 28 72 6f 6f 74 2c 20 70 61 72 65 6e 74 46 69 62 65 72 29 20 7b 0a 20 20 69 66 20 28 70 61 72 65 6e 74 ... 16334 more bytes>,
+180 silly tar       <Buffer 64 65 66 61 75 6c 74 3a 0a 20 20 20 20 20 20 72 65 63 75 72 73 69 76 65 6c 79 54 72 61 76 65 72 73 65 50 61 73 73 69 76 65 4d 6f 75 6e 74 45 66 66 65 ... 16334 more bytes>,
+180 silly tar       <Buffer 20 3d 20 66 69 6e 69 73 68 65 64 57 6f 72 6b 2e 73 74 61 74 65 4e 6f 64 65 3b 0a 20 20 20 20 20 20 69 6e 73 74 61 6e 63 65 2e 63 6c 6f 6e 65 73 20 3d ... 16334 more bytes>,
+180 silly tar       <Buffer 20 35 3a 0a 20 20 20 20 20 20 20 20 20 20 20 20 20 20 74 61 67 20 3d 20 22 22 3b 0a 20 20 20 20 20 20 20 20 20 20 20 20 20 20 66 69 62 65 72 24 6a 73 ... 16334 more bytes>,
+180 silly tar       <Buffer 0a 7d 0a 66 75 6e 63 74 69 6f 6e 20 72 65 73 65 74 57 6f 72 6b 49 6e 50 72 6f 67 72 65 73 73 53 74 61 63 6b 28 29 20 7b 0a 20 20 69 66 20 28 6e 75 6c ... 16334 more bytes>,
+180 silly tar       <Buffer 61 74 50 72 6f 64 45 72 72 6f 72 4d 65 73 73 61 67 65 28 31 37 37 29 29 3b 0a 20 20 20 20 64 69 64 49 6e 63 6c 75 64 65 52 65 6e 64 65 72 50 68 61 73 ... 16334 more bytes>,
+180 silly tar       <Buffer 65 72 49 6e 73 74 61 6e 63 65 53 74 79 6c 65 2e 74 72 61 6e 73 66 6f 72 6d 3b 0a 20 20 20 20 20 20 20 20 70 6f 73 69 74 69 6f 6e 65 64 41 6e 63 65 73 ... 16334 more bytes>,
+180 silly tar       <Buffer 3d 20 6e 75 6c 6c 2c 20 72 6f 6f 74 20 3d 20 66 69 72 73 74 53 63 68 65 64 75 6c 65 64 52 6f 6f 74 3b 0a 20 20 20 20 6e 75 6c 6c 20 21 3d 3d 20 72 6f ... 16334 more bytes>,
+180 silly tar       <Buffer 6f 77 6e 65 72 44 6f 63 75 6d 65 6e 74 29 29 3b 0a 20 20 7d 0a 7d 0a 66 75 6e 63 74 69 6f 6e 20 61 64 64 54 72 61 70 70 65 64 45 76 65 6e 74 4c 69 73 ... 16334 more bytes>,
+180 silly tar       <Buffer 20 20 63 61 73 65 20 22 74 6f 75 63 68 65 6e 64 22 3a 0a 20 20 20 20 20 20 20 20 20 20 20 20 69 73 54 6f 75 63 68 53 74 61 72 74 65 64 20 3d 20 21 31 ... 16334 more bytes>,
+180 silly tar       <Buffer 65 6d 65 6e 74 2e 72 65 6d 6f 76 65 41 74 74 72 69 62 75 74 65 28 6b 65 79 29 29 3b 0a 20 20 20 20 20 20 20 20 20 20 20 20 64 6f 6d 45 6c 65 6d 65 6e ... 16334 more bytes>,
+180 silly tar       <Buffer 32 33 20 3d 20 6e 65 78 74 50 72 6f 70 73 5b 6c 61 73 74 44 65 66 61 75 6c 74 56 61 6c 75 65 5d 29 2c 0a 20 20 20 20 20 20 20 20 20 20 28 70 72 6f 70 ... 16334 more bytes>,
+180 silly tar       <Buffer 22 20 3d 3d 3d 20 6f 77 6e 65 72 44 6f 63 75 6d 65 6e 74 2e 66 6f 6e 74 73 2e 73 74 61 74 75 73 29 0a 20 20 20 20 20 20 20 20 29 0a 20 20 20 20 20 20 ... 16334 more bytes>,
+180 silly tar       <Buffer 74 29 3b 0a 20 20 20 20 69 66 20 28 65 76 65 6e 74 4c 69 73 74 65 6e 65 72 73 29 0a 20 20 20 20 20 20 66 6f 72 20 28 69 20 3d 20 30 3b 20 69 20 3c 20 ... 16334 more bytes>,
+180 silly tar       <Buffer 6f 6e 49 6e 73 74 61 6e 63 65 2e 64 61 74 61 3b 0a 20 20 20 20 20 20 69 66 20 28 22 2f 24 22 20 3d 3d 3d 20 64 61 74 61 20 7c 7c 20 22 2f 26 22 20 3d ... 16334 more bytes>,
+180 silly tar       <Buffer 64 45 72 72 6f 72 4d 65 73 73 61 67 65 28 34 34 34 2c 20 74 79 70 65 29 29 3b 0a 20 20 7d 0a 7d 0a 66 75 6e 63 74 69 6f 6e 20 67 65 74 53 74 79 6c 65 ... 16334 more bytes>,
+180 silly tar       <Buffer 20 69 66 20 28 21 70 61 72 65 6e 74 43 6f 6d 70 6f 6e 65 6e 74 29 20 72 65 74 75 72 6e 20 65 6d 70 74 79 43 6f 6e 74 65 78 74 4f 62 6a 65 63 74 3b 0a ... 16334 more bytes>,
+180 silly tar       <Buffer 20 20 20 20 20 20 20 20 20 20 20 20 7b 0a 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 70 65 6e 64 69 6e 67 3a 20 21 30 2c 0a 20 20 20 20 20 20 20 ... 15416 more bytes>
+180 silly tar     ],
+180 silly tar     Symbol(objectMode): false,
+180 silly tar     Symbol(encoding): null,
+180 silly tar     Symbol(async): false,
+180 silly tar     Symbol(decoder): null,
+180 silly tar     Symbol(EOF): true,
+180 silly tar     Symbol(emittedEnd): false,
+180 silly tar     Symbol(emittingEnd): false,
+180 silly tar     Symbol(closed): false,
+180 silly tar     Symbol(emittedError): null,
+180 silly tar     Symbol(bufferLength): 654442,
+180 silly tar     Symbol(destroyed): false,
+180 silly tar     Symbol(signal): undefined,
+180 silly tar     Symbol(aborted): false
+180 silly tar   },
+180 silly tar   cwd: 'C:/Users/DDR3/Documents/Codex/2026-09-29/i-x20/node_modules/next',
+180 silly tar   tarCode: 'TAR_ENTRY_ERROR'
+180 silly tar }
+181 warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\next\dist\compiled\react-dom-experimental\cjs\react-dom.development.js'
+182 silly tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\next\dist\compiled\react-dom-experimental\cjs\react-dom.development.js' [Error: ENOENT: no such file or directory, open 'C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\next\dist\compiled\react-dom-experimental\cjs\react-dom.development.js'] {
+182 silly tar   errno: -4058,
+182 silly tar   code: 'ENOENT',
+182 silly tar   syscall: 'open',
+182 silly tar   path: 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\next\\dist\\compiled\\react-dom-experimental\\cjs\\react-dom.development.js',
+182 silly tar   entry: ReadEntry {
+182 silly tar     _events: [Object: null prototype] { end: [Function (anonymous)] },
+182 silly tar     _eventsCount: 1,
+182 silly tar     _maxListeners: undefined,
+182 silly tar     writable: false,
+182 silly tar     readable: true,
+182 silly tar     extended: null,
+182 silly tar     globalExtended: null,
+182 silly tar     header: Header {
+182 silly tar       cksumValid: true,
+182 silly tar       needPax: false,
+182 silly tar       nullBlock: false,
+182 silly tar       block: null,
+182 silly tar       path: 'package/dist/compiled/react-dom-experimental/cjs/react-dom.development.js',
+182 silly tar       mode: 420,
+182 silly tar       uid: 0,
+182 silly tar       gid: 0,
+182 silly tar       size: 17736,
+182 silly tar       mtime: 1985-10-26T08:15:00.000Z,
+182 silly tar       cksum: 10912,
+182 silly tar       linkpath: '',
+182 silly tar       uname: '',
+182 silly tar       gname: '',
+182 silly tar       devmaj: 0,
+182 silly tar       devmin: 0,
+182 silly tar       atime: null,
+182 silly tar       ctime: null,
+182 silly tar       Symbol(type): '0'
+182 silly tar     },
+182 silly tar     startBlockSize: 17920,
+182 silly tar     blockRemain: 0,
+182 silly tar     remain: 0,
+182 silly tar     type: 'File',
+182 silly tar     meta: false,
+182 silly tar     ignore: false,
+182 silly tar     path: 'dist/compiled/react-dom-experimental/cjs/react-dom.development.js',
+182 silly tar     mode: 438,
+182 silly tar     uid: 0,
+182 silly tar     gid: 0,
+182 silly tar     uname: '',
+182 silly tar     gname: '',
+182 silly tar     size: 17736,
+182 silly tar     mtime: 1985-10-26T08:15:00.000Z,
+182 silly tar     atime: null,
+182 silly tar     ctime: null,
+182 silly tar     linkpath: '',
+182 silly tar     absolute: 'C:/Users/DDR3/Documents/Codex/2026-09-29/i-x20/node_modules/next/dist/compiled/react-dom-experimental/cjs/react-dom.development.js',
+182 silly tar     Symbol(shapeMode): false,
+182 silly tar     Symbol(kCapture): false,
+182 silly tar     Symbol(flowing): false,
+182 silly tar     Symbol(paused): true,
+182 silly tar     Symbol(pipes): [ [Pipe] ],
+182 silly tar     Symbol(buffer): [
+182 silly tar       <Buffer 20 20 20 20 20 20 29 3b 0a 20 20 20 20 20 20 22 73 74 72 69 6e 67 22 20 3d 3d 3d 20 74 79 70 65 6f 66 20 68 72 65 66 20 26 26 0a 20 20 20 20 20 20 20 ... 1302 more bytes>
+182 silly tar     ],
+182 silly tar     Symbol(objectMode): false,
+182 silly tar     Symbol(encoding): null,
+182 silly tar     Symbol(async): false,
+182 silly tar     Symbol(decoder): null,
+182 silly tar     Symbol(EOF): true,
+182 silly tar     Symbol(emittedEnd): false,
+182 silly tar     Symbol(emittingEnd): false,
+182 silly tar     Symbol(closed): false,
+182 silly tar     Symbol(emittedError): null,
+182 silly tar     Symbol(bufferLength): 1352,
+182 silly tar     Symbol(destroyed): false,
+182 silly tar     Symbol(signal): undefined,
+182 silly tar     Symbol(aborted): false
+182 silly tar   },
+182 silly tar   cwd: 'C:/Users/DDR3/Documents/Codex/2026-09-29/i-x20/node_modules/next',
+182 silly tar   tarCode: 'TAR_ENTRY_ERROR'
+182 silly tar }
+183 warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\next\dist\compiled\react-dom\cjs\react-dom.development.js'
+184 silly tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\next\dist\compiled\react-dom\cjs\react-dom.development.js' [Error: ENOENT: no such file or directory, open 'C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\next\dist\compiled\react-dom\cjs\react-dom.development.js'] {
+184 silly tar   errno: -4058,
+184 silly tar   code: 'ENOENT',
+184 silly tar   syscall: 'open',
+184 silly tar   path: 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\next\\dist\\compiled\\react-dom\\cjs\\react-dom.development.js',
+184 silly tar   entry: ReadEntry {
+184 silly tar     _events: [Object: null prototype] { end: [Function (anonymous)] },
+184 silly tar     _eventsCount: 1,
+184 silly tar     _maxListeners: undefined,
+184 silly tar     writable: false,
+184 silly tar     readable: true,
+184 silly tar     extended: null,
+184 silly tar     globalExtended: null,
+184 silly tar     header: Header {
+184 silly tar       cksumValid: true,
+184 silly tar       needPax: false,
+184 silly tar       nullBlock: false,
+184 silly tar       block: null,
+184 silly tar       path: 'package/dist/compiled/react-dom/cjs/react-dom.development.js',
+184 silly tar       mode: 420,
+184 silly tar       uid: 0,
+184 silly tar       gid: 0,
+184 silly tar       size: 17717,
+184 silly tar       mtime: 1985-10-26T08:15:00.000Z,
+184 silly tar       cksum: 9582,
+184 silly tar       linkpath: '',
+184 silly tar       uname: '',
+184 silly tar       gname: '',
+184 silly tar       devmaj: 0,
+184 silly tar       devmin: 0,
+184 silly tar       atime: null,
+184 silly tar       ctime: null,
+184 silly tar       Symbol(type): '0'
+184 silly tar     },
+184 silly tar     startBlockSize: 17920,
+184 silly tar     blockRemain: 0,
+184 silly tar     remain: 0,
+184 silly tar     type: 'File',
+184 silly tar     meta: false,
+184 silly tar     ignore: false,
+184 silly tar     path: 'dist/compiled/react-dom/cjs/react-dom.development.js',
+184 silly tar     mode: 438,
+184 silly tar     uid: 0,
+184 silly tar     gid: 0,
+184 silly tar     uname: '',
+184 silly tar     gname: '',
+184 silly tar     size: 17717,
+184 silly tar     mtime: 1985-10-26T08:15:00.000Z,
+184 silly tar     atime: null,
+184 silly tar     ctime: null,
+184 silly tar     linkpath: '',
+184 silly tar     absolute: 'C:/Users/DDR3/Documents/Codex/2026-09-29/i-x20/node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js',
+184 silly tar     Symbol(shapeMode): false,
+184 silly tar     Symbol(kCapture): false,
+184 silly tar     Symbol(flowing): false,
+184 silly tar     Symbol(paused): true,
+184 silly tar     Symbol(pipes): [ [Pipe] ],
+184 silly tar     Symbol(buffer): [
+184 silly tar       <Buffer 0a 20 20 20 20 20 20 20 20 29 3b 0a 20 20 20 20 20 20 20 20 49 6e 74 65 72 6e 61 6c 73 2e 64 2e 4c 28 68 72 65 66 2c 20 65 6e 63 6f 75 6e 74 65 72 65 ... 3331 more bytes>
+184 silly tar     ],
+184 silly tar     Symbol(objectMode): false,
+184 silly tar     Symbol(encoding): null,
+184 silly tar     Symbol(async): false,
+184 silly tar     Symbol(decoder): null,
+184 silly tar     Symbol(EOF): true,
+184 silly tar     Symbol(emittedEnd): false,
+184 silly tar     Symbol(emittingEnd): false,
+184 silly tar     Symbol(closed): false,
+184 silly tar     Symbol(emittedError): null,
+184 silly tar     Symbol(bufferLength): 3381,
+184 silly tar     Symbol(destroyed): false,
+184 silly tar     Symbol(signal): undefined,
+184 silly tar     Symbol(aborted): false
+184 silly tar   },
+184 silly tar   cwd: 'C:/Users/DDR3/Documents/Codex/2026-09-29/i-x20/node_modules/next',
+184 silly tar   tarCode: 'TAR_ENTRY_ERROR'
+184 silly tar }
+185 warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\next\dist\esm\server\route-modules\app-page\vendored\rsc\react-dom.js'
+186 silly tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\next\dist\esm\server\route-modules\app-page\vendored\rsc\react-dom.js' [Error: ENOENT: no such file or directory, open 'C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\next\dist\esm\server\route-modules\app-page\vendored\rsc\react-dom.js'] {
+186 silly tar   errno: -4058,
+186 silly tar   code: 'ENOENT',
+186 silly tar   syscall: 'open',
+186 silly tar   path: 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\next\\dist\\esm\\server\\route-modules\\app-page\\vendored\\rsc\\react-dom.js',
+186 silly tar   entry: ReadEntry {
+186 silly tar     _events: [Object: null prototype] {},
+186 silly tar     _eventsCount: 0,
+186 silly tar     _maxListeners: undefined,
+186 silly tar     writable: false,
+186 silly tar     readable: false,
+186 silly tar     extended: null,
+186 silly tar     globalExtended: null,
+186 silly tar     header: Header {
+186 silly tar       cksumValid: true,
+186 silly tar       needPax: false,
+186 silly tar       nullBlock: false,
+186 silly tar       block: null,
+186 silly tar       path: 'package/dist/esm/server/route-modules/app-page/vendored/rsc/react-dom.js',
+186 silly tar       mode: 420,
+186 silly tar       uid: 0,
+186 silly tar       gid: 0,
+186 silly tar       size: 120,
+186 silly tar       mtime: 1985-10-26T08:15:00.000Z,
+186 silly tar       cksum: 10735,
+186 silly tar       linkpath: '',
+186 silly tar       uname: '',
+186 silly tar       gname: '',
+186 silly tar       devmaj: 0,
+186 silly tar       devmin: 0,
+186 silly tar       atime: null,
+186 silly tar       ctime: null,
+186 silly tar       Symbol(type): '0'
+186 silly tar     },
+186 silly tar     startBlockSize: 512,
+186 silly tar     blockRemain: 0,
+186 silly tar     remain: 0,
+186 silly tar     type: 'File',
+186 silly tar     meta: false,
+186 silly tar     ignore: false,
+186 silly tar     path: 'dist/esm/server/route-modules/app-page/vendored/rsc/react-dom.js',
+186 silly tar     mode: 438,
+186 silly tar     uid: 0,
+186 silly tar     gid: 0,
+186 silly tar     uname: '',
+186 silly tar     gname: '',
+186 silly tar     size: 120,
+186 silly tar     mtime: 1985-10-26T08:15:00.000Z,
+186 silly tar     atime: null,
+186 silly tar     ctime: null,
+186 silly tar     linkpath: '',
+186 silly tar     absolute: 'C:/Users/DDR3/Documents/Codex/2026-09-29/i-x20/node_modules/next/dist/esm/server/route-modules/app-page/vendored/rsc/react-dom.js',
+186 silly tar     Symbol(shapeMode): false,
+186 silly tar     Symbol(kCapture): false,
+186 silly tar     Symbol(flowing): false,
+186 silly tar     Symbol(paused): true,
+186 silly tar     Symbol(pipes): [ [Pipe] ],
+186 silly tar     Symbol(buffer): [],
+186 silly tar     Symbol(objectMode): false,
+186 silly tar     Symbol(encoding): null,
+186 silly tar     Symbol(async): false,
+186 silly tar     Symbol(decoder): null,
+186 silly tar     Symbol(EOF): true,
+186 silly tar     Symbol(emittedEnd): true,
+186 silly tar     Symbol(emittingEnd): false,
+186 silly tar     Symbol(closed): false,
+186 silly tar     Symbol(emittedError): null,
+186 silly tar     Symbol(bufferLength): 0,
+186 silly tar     Symbol(destroyed): false,
+186 silly tar     Symbol(signal): undefined,
+186 silly tar     Symbol(aborted): false
+186 silly tar   },
+186 silly tar   cwd: 'C:/Users/DDR3/Documents/Codex/2026-09-29/i-x20/node_modules/next',
+186 silly tar   tarCode: 'TAR_ENTRY_ERROR'
+186 silly tar }
+187 warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\next\dist\esm\server\route-modules\app-page\vendored\ssr\react-dom.js'
+188 silly tar TAR_ENTRY_ERROR ENOENT: no such file or directory, open 'C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\next\dist\esm\server\route-modules\app-page\vendored\ssr\react-dom.js' [Error: ENOENT: no such file or directory, open 'C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\next\dist\esm\server\route-modules\app-page\vendored\ssr\react-dom.js'] {
+188 silly tar   errno: -4058,
+188 silly tar   code: 'ENOENT',
+188 silly tar   syscall: 'open',
+188 silly tar   path: 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\next\\dist\\esm\\server\\route-modules\\app-page\\vendored\\ssr\\react-dom.js',
+188 silly tar   entry: ReadEntry {
+188 silly tar     _events: [Object: null prototype] {},
+188 silly tar     _eventsCount: 0,
+188 silly tar     _maxListeners: undefined,
+188 silly tar     writable: false,
+188 silly tar     readable: false,
+188 silly tar     extended: null,
+188 silly tar     globalExtended: null,
+188 silly tar     header: Header {
+188 silly tar       cksumValid: true,
+188 silly tar       needPax: false,
+188 silly tar       nullBlock: false,
+188 silly tar       block: null,
+188 silly tar       path: 'package/dist/esm/server/route-modules/app-page/vendored/ssr/react-dom.js',
+188 silly tar       mode: 420,
+188 silly tar       uid: 0,
+188 silly tar       gid: 0,
+188 silly tar       size: 120,
+188 silly tar       mtime: 1985-10-26T08:15:00.000Z,
+188 silly tar       cksum: 10751,
+188 silly tar       linkpath: '',
+188 silly tar       uname: '',
+188 silly tar       gname: '',
+188 silly tar       devmaj: 0,
+188 silly tar       devmin: 0,
+188 silly tar       atime: null,
+188 silly tar       ctime: null,
+188 silly tar       Symbol(type): '0'
+188 silly tar     },
+188 silly tar     startBlockSize: 512,
+188 silly tar     blockRemain: 0,
+188 silly tar     remain: 0,
+188 silly tar     type: 'File',
+188 silly tar     meta: false,
+188 silly tar     ignore: false,
+188 silly tar     path: 'dist/esm/server/route-modules/app-page/vendored/ssr/react-dom.js',
+188 silly tar     mode: 438,
+188 silly tar     uid: 0,
+188 silly tar     gid: 0,
+188 silly tar     uname: '',
+188 silly tar     gname: '',
+188 silly tar     size: 120,
+188 silly tar     mtime: 1985-10-26T08:15:00.000Z,
+188 silly tar     atime: null,
+188 silly tar     ctime: null,
+188 silly tar     linkpath: '',
+188 silly tar     absolute: 'C:/Users/DDR3/Documents/Codex/2026-09-29/i-x20/node_modules/next/dist/esm/server/route-modules/app-page/vendored/ssr/react-dom.js',
+188 silly tar     Symbol(shapeMode): false,
+188 silly tar     Symbol(kCapture): false,
+188 silly tar     Symbol(flowing): false,
+188 silly tar     Symbol(paused): true,
+188 silly tar     Symbol(pipes): [ [Pipe] ],
+188 silly tar     Symbol(buffer): [],
+188 silly tar     Symbol(objectMode): false,
+188 silly tar     Symbol(encoding): null,
+188 silly tar     Symbol(async): false,
+188 silly tar     Symbol(decoder): null,
+188 silly tar     Symbol(EOF): true,
+188 silly tar     Symbol(emittedEnd): true,
+188 silly tar     Symbol(emittingEnd): false,
+188 silly tar     Symbol(closed): false,
+188 silly tar     Symbol(emittedError): null,
+188 silly tar     Symbol(bufferLength): 0,
+188 silly tar     Symbol(destroyed): false,
+188 silly tar     Symbol(signal): undefined,
+188 silly tar     Symbol(aborted): false
+188 silly tar   },
+188 silly tar   cwd: 'C:/Users/DDR3/Documents/Codex/2026-09-29/i-x20/node_modules/next',
+188 silly tar   tarCode: 'TAR_ENTRY_ERROR'
+188 silly tar }
+189 warn cleanup Failed to remove some directories [
+189 warn cleanup   [
+189 warn cleanup     '\\\\?\\C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@swc\\helpers',
+189 warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@swc\helpers\_\_async_iterator'] {
+189 warn cleanup       errno: -4048,
+189 warn cleanup       code: 'EPERM',
+189 warn cleanup       syscall: 'rmdir',
+189 warn cleanup       path: 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\@swc\\helpers\\_\\_async_iterator'
+189 warn cleanup     }
+189 warn cleanup   ],
+189 warn cleanup   [
+189 warn cleanup     '\\\\?\\C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\next',
+189 warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\next\dist\esm\build\webpack\loaders'] {
+189 warn cleanup       errno: -4048,
+189 warn cleanup       code: 'EPERM',
+189 warn cleanup       syscall: 'rmdir',
+189 warn cleanup       path: 'C:\\Users\\DDR3\\Documents\\Codex\\2026-09-29\\i-x20\\node_modules\\next\\dist\\esm\\build\\webpack\\loaders'
+189 warn cleanup     }
+189 warn cleanup   ]
+189 warn cleanup ]
+190 verbose stack Error: request to https://registry.npmjs.org/update-browserslist-db failed: cache mode is 'only-if-cached' but no cached response is available.
+190 verbose stack     at cacheFetch (C:\Users\DDR3\AppData\Roaming\npm\node_modules\npm\node_modules\make-fetch-happen\lib\cache\index.js:12:13)
+190 verbose stack     at async fetch (C:\Users\DDR3\AppData\Roaming\npm\node_modules\npm\node_modules\make-fetch-happen\lib\fetch.js:98:7)
+190 verbose stack     at async RegistryFetcher.packument (C:\Users\DDR3\AppData\Roaming\npm\node_modules\npm\node_modules\pacote\lib\registry.js:90:19)
+190 verbose stack     at async RegistryFetcher.manifest (C:\Users\DDR3\AppData\Roaming\npm\node_modules\npm\node_modules\pacote\lib\registry.js:128:23)
+190 verbose stack     at async RegistryFetcher.resolve (C:\Users\DDR3\AppData\Roaming\npm\node_modules\npm\node_modules\pacote\lib\registry.js:55:5)
+190 verbose stack     at async #extractOrLink (C:\Users\DDR3\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:799:7)
+190 verbose stack     at async C:\Users\DDR3\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:719:7
+190 verbose stack     at async Promise.allSettled (index 0)
+190 verbose stack     at async [reifyPackages] (C:\Users\DDR3\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:332:11)
+190 verbose stack     at async Arborist.reify (C:\Users\DDR3\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:137:5)
+191 error code ENOTCACHED
+192 error request to https://registry.npmjs.org/update-browserslist-db failed: cache mode is 'only-if-cached' but no cached response is available.
+193 silly unfinished npm timer reify 1790709987918
+194 silly unfinished npm timer reify:unpack 1790710003712
+195 silly unfinished npm timer reifyNode:node_modules/update-browserslist-db 1790710003712
+196 silly unfinished npm timer reifyNode:node_modules/resolve 1790710003713
+197 silly unfinished npm timer reifyNode:node_modules/nanoid 1790710003713
+198 silly unfinished npm timer reifyNode:node_modules/jiti 1790710003715
+199 silly unfinished npm timer reifyNode:node_modules/baseline-browser-mapping 1790710003715
+200 silly unfinished npm timer reifyNode:node_modules/autoprefixer 1790710003715
+201 silly unfinished npm timer reifyNode:node_modules/cssesc 1790710003715
+202 silly unfinished npm timer reifyNode:node_modules/browserslist 1790710003715
+203 silly unfinished npm timer reifyNode:node_modules/sucrase 1790710003715
+204 verbose cwd C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20
+205 verbose os Windows_NT 10.0.19045
+206 verbose node v24.12.0
+207 verbose npm  v11.6.0
+208 verbose exit 1
+209 verbose code 1
+210 error A complete log of this run can be found in: C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\.npm-cache\_logs\2026-09-29T19_26_23_333Z-debug-0.log

@@ -1,0 +1,5 @@
+{
+  "kind": "collectionType", "collectionName": "projects", "info": { "singularName": "project", "pluralName": "projects", "displayName": "Project", "description": "Portfolio case studies" }, "options": { "draftAndPublish": true }, "attributes": {
+    "title": { "type": "string", "required": true }, "slug": { "type": "uid", "targetField": "title", "required": true }, "summary": { "type": "text", "required": true }, "caseStudy": { "type": "blocks" }, "cover": { "type": "media", "multiple": false, "allowedTypes": ["images"] }, "gallery": { "type": "media", "multiple": true, "allowedTypes": ["images"] }, "year": { "type": "integer" }, "role": { "type": "string" }, "featured": { "type": "boolean", "default": false }, "sortOrder": { "type": "integer" }, "liveUrl": { "type": "string" }, "repoUrl": { "type": "string" }, "category": { "type": "relation", "relation": "manyToOne", "target": "api::project-category.project-category", "inversedBy": "projects" }, "tools": { "type": "relation", "relation": "manyToMany", "target": "api::tool.tool", "inversedBy": "projects" }
+  }
+}

@@ -1,0 +1,286 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\DDR3\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.0
+2 info using node@v24.12.0
+3 silly config load:file:C:\Users\DDR3\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\.npmrc
+5 silly config load:file:C:\Users\DDR3\.npmrc
+6 silly config load:file:C:\Users\DDR3\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm ls
+8 verbose argv "ls" "--depth" "0" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\.npm-cache\_logs\2026-09-29T19_08_28_118Z-
+10 verbose logfile C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\.npm-cache\_logs\2026-09-29T19_08_28_118Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 verbose stack Error: extraneous: @alloc/quick-lru@5.3.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@alloc\quick-lru
+13 verbose stack extraneous: @emnapi/runtime@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@emnapi\runtime
+13 verbose stack extraneous: @img/colour@1.1.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\colour
+13 verbose stack extraneous: @img/sharp-darwin-arm64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-darwin-arm64
+13 verbose stack extraneous: @img/sharp-darwin-x64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-darwin-x64
+13 verbose stack extraneous: @img/sharp-freebsd-wasm32@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-freebsd-wasm32
+13 verbose stack extraneous: @img/sharp-libvips-darwin-arm64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-libvips-darwin-arm64
+13 verbose stack extraneous: @img/sharp-libvips-darwin-x64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-libvips-darwin-x64
+13 verbose stack extraneous: @img/sharp-libvips-linux-arm@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-libvips-linux-arm
+13 verbose stack extraneous: @img/sharp-libvips-linux-arm64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-libvips-linux-arm64
+13 verbose stack extraneous: @img/sharp-libvips-linux-ppc64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-libvips-linux-ppc64
+13 verbose stack extraneous: @img/sharp-libvips-linux-riscv64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-libvips-linux-riscv64
+13 verbose stack extraneous: @img/sharp-libvips-linux-s390x@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-libvips-linux-s390x
+13 verbose stack extraneous: @img/sharp-libvips-linux-x64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-libvips-linux-x64
+13 verbose stack extraneous: @img/sharp-libvips-linuxmusl-arm64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-libvips-linuxmusl-arm64
+13 verbose stack extraneous: @img/sharp-libvips-linuxmusl-x64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-libvips-linuxmusl-x64
+13 verbose stack extraneous: @img/sharp-linux-arm@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-linux-arm
+13 verbose stack extraneous: @img/sharp-linux-arm64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-linux-arm64
+13 verbose stack extraneous: @img/sharp-linux-ppc64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-linux-ppc64
+13 verbose stack extraneous: @img/sharp-linux-riscv64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-linux-riscv64
+13 verbose stack extraneous: @img/sharp-linux-s390x@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-linux-s390x
+13 verbose stack extraneous: @img/sharp-linux-x64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-linux-x64
+13 verbose stack extraneous: @img/sharp-linuxmusl-arm64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-linuxmusl-arm64
+13 verbose stack extraneous: @img/sharp-linuxmusl-x64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-linuxmusl-x64
+13 verbose stack extraneous: @img/sharp-wasm32@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-wasm32
+13 verbose stack extraneous: @img/sharp-webcontainers-wasm32@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-webcontainers-wasm32
+13 verbose stack extraneous: @img/sharp-win32-arm64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-win32-arm64
+13 verbose stack extraneous: @img/sharp-win32-ia32@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-win32-ia32
+13 verbose stack extraneous: @img/sharp-win32-x64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-win32-x64
+13 verbose stack extraneous: @jridgewell/gen-mapping@0.3.13 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@jridgewell\gen-mapping
+13 verbose stack extraneous: @jridgewell/resolve-uri@3.1.2 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@jridgewell\resolve-uri
+13 verbose stack extraneous: @jridgewell/sourcemap-codec@1.6.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@jridgewell\sourcemap-codec
+13 verbose stack extraneous: @jridgewell/trace-mapping@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@jridgewell\trace-mapping
+13 verbose stack extraneous: @next/env@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@next\env
+13 verbose stack extraneous: @next/swc-darwin-arm64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@next\swc-darwin-arm64
+13 verbose stack extraneous: @next/swc-darwin-x64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@next\swc-darwin-x64
+13 verbose stack extraneous: @next/swc-linux-arm64-gnu@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@next\swc-linux-arm64-gnu
+13 verbose stack extraneous: @next/swc-linux-arm64-musl@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@next\swc-linux-arm64-musl
+13 verbose stack extraneous: @next/swc-linux-x64-gnu@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@next\swc-linux-x64-gnu
+13 verbose stack extraneous: @next/swc-linux-x64-musl@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@next\swc-linux-x64-musl
+13 verbose stack extraneous: @next/swc-win32-arm64-msvc@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@next\swc-win32-arm64-msvc
+13 verbose stack extraneous: @next/swc-win32-x64-msvc@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@next\swc-win32-x64-msvc
+13 verbose stack extraneous: @nodelib/fs.scandir@2.1.5 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@nodelib\fs.scandir
+13 verbose stack extraneous: @nodelib/fs.stat@2.0.5 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@nodelib\fs.stat
+13 verbose stack extraneous: @nodelib/fs.walk@1.2.8 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@nodelib\fs.walk
+13 verbose stack extraneous: @swc/helpers@0.5.15 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@swc\helpers
+13 verbose stack extraneous: any-promise@1.3.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\any-promise
+13 verbose stack extraneous: anymatch@3.1.3 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\anymatch
+13 verbose stack extraneous: arg@5.0.2 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\arg
+13 verbose stack invalid: autoprefixer@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\autoprefixer
+13 verbose stack extraneous: baseline-browser-mapping@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\baseline-browser-mapping
+13 verbose stack extraneous: binary-extensions@2.3.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\binary-extensions
+13 verbose stack extraneous: braces@3.0.3 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\braces
+13 verbose stack extraneous: browserslist@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\browserslist
+13 verbose stack extraneous: camelcase-css@2.0.1 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\camelcase-css
+13 verbose stack extraneous: caniuse-lite@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\caniuse-lite
+13 verbose stack extraneous: chokidar@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\chokidar
+13 verbose stack extraneous: client-only@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\client-only
+13 verbose stack extraneous: commander@4.1.1 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\commander
+13 verbose stack extraneous: cssesc@3.0.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\cssesc
+13 verbose stack extraneous: detect-libc@2.1.2 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\detect-libc
+13 verbose stack extraneous: didyoumean@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\didyoumean
+13 verbose stack extraneous: dlv@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\dlv
+13 verbose stack extraneous: electron-to-chromium@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\electron-to-chromium
+13 verbose stack extraneous: es-errors@1.3.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\es-errors
+13 verbose stack extraneous: escalade@3.2.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\escalade
+13 verbose stack extraneous: fast-glob@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\fast-glob
+13 verbose stack extraneous: fastq@1.20.3 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\fastq
+13 verbose stack extraneous: fill-range@7.1.1 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\fill-range
+13 verbose stack extraneous: fraction.js@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\fraction.js
+13 verbose stack invalid: framer-motion@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\framer-motion
+13 verbose stack extraneous: fsevents@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\fsevents
+13 verbose stack extraneous: function-bind@1.1.2 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\function-bind
+13 verbose stack extraneous: glob-parent@6.0.2 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\glob-parent
+13 verbose stack extraneous: hasown@2.0.4 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\hasown
+13 verbose stack extraneous: is-binary-path@2.1.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\is-binary-path
+13 verbose stack extraneous: is-core-module@2.17.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\is-core-module
+13 verbose stack extraneous: is-extglob@2.1.1 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\is-extglob
+13 verbose stack extraneous: is-glob@4.0.3 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\is-glob
+13 verbose stack extraneous: is-number@7.0.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\is-number
+13 verbose stack extraneous: jiti@1.21.7 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\jiti
+13 verbose stack extraneous: lilconfig@3.1.3 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\lilconfig
+13 verbose stack extraneous: lines-and-columns@1.2.4 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\lines-and-columns
+13 verbose stack invalid: lucide-react@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\lucide-react
+13 verbose stack extraneous: merge2@1.4.1 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\merge2
+13 verbose stack extraneous: micromatch@4.0.8 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\micromatch
+13 verbose stack extraneous: motion-dom@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\motion-dom
+13 verbose stack extraneous: motion-utils@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\motion-utils
+13 verbose stack extraneous: mz@2.7.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\mz
+13 verbose stack extraneous: nanoid@3.3.19 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\nanoid
+13 verbose stack invalid: next-themes@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\next-themes
+13 verbose stack invalid: next@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\next
+13 verbose stack extraneous: node-releases@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\node-releases
+13 verbose stack extraneous: normalize-path@3.0.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\normalize-path
+13 verbose stack extraneous: object-assign@4.1.1 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\object-assign
+13 verbose stack extraneous: object-hash@3.0.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\object-hash
+13 verbose stack extraneous: path-parse@1.0.7 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\path-parse
+13 verbose stack extraneous: picocolors@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\picocolors
+13 verbose stack extraneous: picomatch@2.3.2 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\picomatch
+13 verbose stack extraneous: pirates@4.0.7 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\pirates
+13 verbose stack extraneous: postcss-import@15.1.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\postcss-import
+13 verbose stack extraneous: postcss-js@4.1.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\postcss-js
+13 verbose stack extraneous: postcss-load-config@6.0.1 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\postcss-load-config
+13 verbose stack extraneous: postcss-nested@6.2.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\postcss-nested
+13 verbose stack extraneous: postcss-selector-parser@6.1.4 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\postcss-selector-parser
+13 verbose stack extraneous: postcss-value-parser@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\postcss-value-parser
+13 verbose stack invalid: postcss@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\postcss
+13 verbose stack extraneous: queue-microtask@1.2.3 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\queue-microtask
+13 verbose stack invalid: react-dom@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\react-dom
+13 verbose stack invalid: react@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\react
+13 verbose stack extraneous: read-cache@1.0.2 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\read-cache
+13 verbose stack extraneous: readdirp@3.6.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\readdirp
+13 verbose stack extraneous: resolve@1.22.12 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\resolve
+13 verbose stack extraneous: reusify@1.1.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\reusify
+13 verbose stack extraneous: run-parallel@1.2.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\run-parallel
+13 verbose stack extraneous: scheduler@0.28.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\scheduler
+13 verbose stack extraneous: semver@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\semver
+13 verbose stack extraneous: sharp@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\sharp
+13 verbose stack extraneous: source-map-js@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\source-map-js
+13 verbose stack extraneous: styled-jsx@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\styled-jsx
+13 verbose stack extraneous: sucrase@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\sucrase
+13 verbose stack extraneous: supports-preserve-symlinks-flag@1.0.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\supports-preserve-symlinks-flag
+13 verbose stack invalid: tailwindcss@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\tailwindcss
+13 verbose stack extraneous: thenify-all@1.6.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\thenify-all
+13 verbose stack extraneous: thenify@3.3.1 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\thenify
+13 verbose stack extraneous: tinyglobby@0.2.17 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\tinyglobby
+13 verbose stack extraneous: to-regex-range@5.0.1 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\to-regex-range
+13 verbose stack extraneous: ts-interface-checker@0.1.13 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\ts-interface-checker
+13 verbose stack extraneous: tslib@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\tslib
+13 verbose stack extraneous: update-browserslist-db@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\update-browserslist-db
+13 verbose stack extraneous: util-deprecate@1.0.2 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\util-deprecate
+13 verbose stack     at LS.exec (C:\Users\DDR3\AppData\Roaming\npm\node_modules\npm\lib\commands\ls.js:206:9)
+13 verbose stack     at async Npm.exec (C:\Users\DDR3\AppData\Roaming\npm\node_modules\npm\lib\npm.js:208:9)
+13 verbose stack     at async module.exports (C:\Users\DDR3\AppData\Roaming\npm\node_modules\npm\lib\cli\entry.js:67:5)
+14 error code ELSPROBLEMS
+15 error extraneous: @alloc/quick-lru@5.3.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@alloc\quick-lru
+15 error extraneous: @emnapi/runtime@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@emnapi\runtime
+15 error extraneous: @img/colour@1.1.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\colour
+15 error extraneous: @img/sharp-darwin-arm64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-darwin-arm64
+15 error extraneous: @img/sharp-darwin-x64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-darwin-x64
+15 error extraneous: @img/sharp-freebsd-wasm32@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-freebsd-wasm32
+15 error extraneous: @img/sharp-libvips-darwin-arm64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-libvips-darwin-arm64
+15 error extraneous: @img/sharp-libvips-darwin-x64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-libvips-darwin-x64
+15 error extraneous: @img/sharp-libvips-linux-arm@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-libvips-linux-arm
+15 error extraneous: @img/sharp-libvips-linux-arm64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-libvips-linux-arm64
+15 error extraneous: @img/sharp-libvips-linux-ppc64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-libvips-linux-ppc64
+15 error extraneous: @img/sharp-libvips-linux-riscv64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-libvips-linux-riscv64
+15 error extraneous: @img/sharp-libvips-linux-s390x@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-libvips-linux-s390x
+15 error extraneous: @img/sharp-libvips-linux-x64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-libvips-linux-x64
+15 error extraneous: @img/sharp-libvips-linuxmusl-arm64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-libvips-linuxmusl-arm64
+15 error extraneous: @img/sharp-libvips-linuxmusl-x64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-libvips-linuxmusl-x64
+15 error extraneous: @img/sharp-linux-arm@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-linux-arm
+15 error extraneous: @img/sharp-linux-arm64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-linux-arm64
+15 error extraneous: @img/sharp-linux-ppc64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-linux-ppc64
+15 error extraneous: @img/sharp-linux-riscv64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-linux-riscv64
+15 error extraneous: @img/sharp-linux-s390x@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-linux-s390x
+15 error extraneous: @img/sharp-linux-x64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-linux-x64
+15 error extraneous: @img/sharp-linuxmusl-arm64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-linuxmusl-arm64
+15 error extraneous: @img/sharp-linuxmusl-x64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-linuxmusl-x64
+15 error extraneous: @img/sharp-wasm32@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-wasm32
+15 error extraneous: @img/sharp-webcontainers-wasm32@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-webcontainers-wasm32
+15 error extraneous: @img/sharp-win32-arm64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-win32-arm64
+15 error extraneous: @img/sharp-win32-ia32@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-win32-ia32
+15 error extraneous: @img/sharp-win32-x64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@img\sharp-win32-x64
+15 error extraneous: @jridgewell/gen-mapping@0.3.13 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@jridgewell\gen-mapping
+15 error extraneous: @jridgewell/resolve-uri@3.1.2 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@jridgewell\resolve-uri
+15 error extraneous: @jridgewell/sourcemap-codec@1.6.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@jridgewell\sourcemap-codec
+15 error extraneous: @jridgewell/trace-mapping@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@jridgewell\trace-mapping
+15 error extraneous: @next/env@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@next\env
+15 error extraneous: @next/swc-darwin-arm64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@next\swc-darwin-arm64
+15 error extraneous: @next/swc-darwin-x64@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@next\swc-darwin-x64
+15 error extraneous: @next/swc-linux-arm64-gnu@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@next\swc-linux-arm64-gnu
+15 error extraneous: @next/swc-linux-arm64-musl@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@next\swc-linux-arm64-musl
+15 error extraneous: @next/swc-linux-x64-gnu@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@next\swc-linux-x64-gnu
+15 error extraneous: @next/swc-linux-x64-musl@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@next\swc-linux-x64-musl
+15 error extraneous: @next/swc-win32-arm64-msvc@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@next\swc-win32-arm64-msvc
+15 error extraneous: @next/swc-win32-x64-msvc@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@next\swc-win32-x64-msvc
+15 error extraneous: @nodelib/fs.scandir@2.1.5 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@nodelib\fs.scandir
+15 error extraneous: @nodelib/fs.stat@2.0.5 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@nodelib\fs.stat
+15 error extraneous: @nodelib/fs.walk@1.2.8 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@nodelib\fs.walk
+15 error extraneous: @swc/helpers@0.5.15 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\@swc\helpers
+15 error extraneous: any-promise@1.3.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\any-promise
+15 error extraneous: anymatch@3.1.3 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\anymatch
+15 error extraneous: arg@5.0.2 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\arg
+15 error invalid: autoprefixer@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\autoprefixer
+15 error extraneous: baseline-browser-mapping@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\baseline-browser-mapping
+15 error extraneous: binary-extensions@2.3.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\binary-extensions
+15 error extraneous: braces@3.0.3 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\braces
+15 error extraneous: browserslist@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\browserslist
+15 error extraneous: camelcase-css@2.0.1 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\camelcase-css
+15 error extraneous: caniuse-lite@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\caniuse-lite
+15 error extraneous: chokidar@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\chokidar
+15 error extraneous: client-only@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\client-only
+15 error extraneous: commander@4.1.1 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\commander
+15 error extraneous: cssesc@3.0.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\cssesc
+15 error extraneous: detect-libc@2.1.2 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\detect-libc
+15 error extraneous: didyoumean@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\didyoumean
+15 error extraneous: dlv@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\dlv
+15 error extraneous: electron-to-chromium@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\electron-to-chromium
+15 error extraneous: es-errors@1.3.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\es-errors
+15 error extraneous: escalade@3.2.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\escalade
+15 error extraneous: fast-glob@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\fast-glob
+15 error extraneous: fastq@1.20.3 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\fastq
+15 error extraneous: fill-range@7.1.1 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\fill-range
+15 error extraneous: fraction.js@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\fraction.js
+15 error invalid: framer-motion@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\framer-motion
+15 error extraneous: fsevents@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\fsevents
+15 error extraneous: function-bind@1.1.2 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\function-bind
+15 error extraneous: glob-parent@6.0.2 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\glob-parent
+15 error extraneous: hasown@2.0.4 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\hasown
+15 error extraneous: is-binary-path@2.1.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\is-binary-path
+15 error extraneous: is-core-module@2.17.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\is-core-module
+15 error extraneous: is-extglob@2.1.1 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\is-extglob
+15 error extraneous: is-glob@4.0.3 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\is-glob
+15 error extraneous: is-number@7.0.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\is-number
+15 error extraneous: jiti@1.21.7 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\jiti
+15 error extraneous: lilconfig@3.1.3 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\lilconfig
+15 error extraneous: lines-and-columns@1.2.4 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\lines-and-columns
+15 error invalid: lucide-react@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\lucide-react
+15 error extraneous: merge2@1.4.1 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\merge2
+15 error extraneous: micromatch@4.0.8 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\micromatch
+15 error extraneous: motion-dom@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\motion-dom
+15 error extraneous: motion-utils@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\motion-utils
+15 error extraneous: mz@2.7.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\mz
+15 error extraneous: nanoid@3.3.19 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\nanoid
+15 error invalid: next-themes@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\next-themes
+15 error invalid: next@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\next
+15 error extraneous: node-releases@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\node-releases
+15 error extraneous: normalize-path@3.0.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\normalize-path
+15 error extraneous: object-assign@4.1.1 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\object-assign
+15 error extraneous: object-hash@3.0.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\object-hash
+15 error extraneous: path-parse@1.0.7 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\path-parse
+15 error extraneous: picocolors@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\picocolors
+15 error extraneous: picomatch@2.3.2 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\picomatch
+15 error extraneous: pirates@4.0.7 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\pirates
+15 error extraneous: postcss-import@15.1.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\postcss-import
+15 error extraneous: postcss-js@4.1.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\postcss-js
+15 error extraneous: postcss-load-config@6.0.1 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\postcss-load-config
+15 error extraneous: postcss-nested@6.2.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\postcss-nested
+15 error extraneous: postcss-selector-parser@6.1.4 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\postcss-selector-parser
+15 error extraneous: postcss-value-parser@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\postcss-value-parser
+15 error invalid: postcss@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\postcss
+15 error extraneous: queue-microtask@1.2.3 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\queue-microtask
+15 error invalid: react-dom@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\react-dom
+15 error invalid: react@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\react
+15 error extraneous: read-cache@1.0.2 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\read-cache
+15 error extraneous: readdirp@3.6.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\readdirp
+15 error extraneous: resolve@1.22.12 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\resolve
+15 error extraneous: reusify@1.1.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\reusify
+15 error extraneous: run-parallel@1.2.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\run-parallel
+15 error extraneous: scheduler@0.28.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\scheduler
+15 error extraneous: semver@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\semver
+15 error extraneous: sharp@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\sharp
+15 error extraneous: source-map-js@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\source-map-js
+15 error extraneous: styled-jsx@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\styled-jsx
+15 error extraneous: sucrase@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\sucrase
+15 error extraneous: supports-preserve-symlinks-flag@1.0.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\supports-preserve-symlinks-flag
+15 error invalid: tailwindcss@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\tailwindcss
+15 error extraneous: thenify-all@1.6.0 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\thenify-all
+15 error extraneous: thenify@3.3.1 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\thenify
+15 error extraneous: tinyglobby@0.2.17 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\tinyglobby
+15 error extraneous: to-regex-range@5.0.1 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\to-regex-range
+15 error extraneous: ts-interface-checker@0.1.13 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\ts-interface-checker
+15 error extraneous: tslib@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\tslib
+15 error extraneous: update-browserslist-db@ C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\update-browserslist-db
+15 error extraneous: util-deprecate@1.0.2 C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\node_modules\util-deprecate
+16 verbose cwd C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20
+17 verbose os Windows_NT 10.0.19045
+18 verbose node v24.12.0
+19 verbose npm  v11.6.0
+20 verbose exit 1
+21 verbose code 1
+22 error A complete log of this run can be found in: C:\Users\DDR3\Documents\Codex\2026-09-29\i-x20\.npm-cache\_logs\2026-09-29T19_08_28_118Z-debug-0.log

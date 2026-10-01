@@ -1,0 +1,8 @@
+import { ArrowUpRight, Mail } from "lucide-react";
+import { socials } from "@/lib/content";
+
+export const metadata = { title: "Contact — Liz Bassey", description: "Start a conversation with Liz Bassey." };
+
+export default function ContactPage() {
+  return <main className="mx-auto min-h-screen max-w-5xl border-x border-[var(--line)] px-5 py-7 sm:px-10"><header className="flex items-center justify-between"><a href="/" className="font-display text-lg font-extrabold tracking-[-.08em]">LIZ<span className="text-[var(--accent)]">.</span></a><a href="/" className="text-xs link-underline">Back home</a></header><section className="grid min-h-[calc(100vh-110px)] content-center gap-12 md:grid-cols-12"><div className="md:col-span-7"><span className="eyebrow inline-flex items-center gap-2"><i className="dot"/>Get in touch</span><h1 className="mt-5 font-display text-[15vw] font-extrabold leading-[.8] tracking-[-.1em] md:text-8xl">LET&apos;S<br/><span className="text-[var(--accent)]">MAKE IT.</span></h1></div><div className="md:col-span-5"><p className="text-sm leading-7 text-[var(--muted)]">I&apos;m always interested in thoughtful products, frontend systems, developer experience, and teams that care about the details.</p><a href="mailto:basseyelizabeth569@gmail.com" className="mt-6 inline-flex items-center gap-2 rounded-full bg-[var(--ink)] px-5 py-3 text-sm text-[var(--bg)]">basseyelizabeth569@gmail.com <Mail size={15}/></a><div className="mt-12 grid grid-cols-2 gap-y-4 border-t border-[var(--line)] pt-5">{socials.map(([name,url]) => <a className="text-xs link-underline w-fit" href={url} target="_blank" rel="noreferrer" key={name}>{name} <ArrowUpRight className="inline" size={11}/></a>)}</div></div></section></main>;
+}

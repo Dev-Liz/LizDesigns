@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dribbble_shots",
+  "info": {
+    "singularName": "dribbble-shot",
+    "pluralName": "dribbble-shots",
+    "displayName": "Dribbble Shot"
+  },
+  "options": { "draftAndPublish": true },
+  "attributes": {
+    "title": { "type": "string", "required": true },
+    "externalUrl": { "type": "string", "required": true },
+    "image": { "type": "media", "multiple": false, "allowedTypes": ["images"] },
+    "description": { "type": "text" },
+    "tags": { "type": "json" },
+    "featured": { "type": "boolean", "default": false },
+    "sortOrder": { "type": "integer" }
+  }
+}
